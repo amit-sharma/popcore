@@ -1,0 +1,30 @@
+<div>
+
+<a target='_blank' href="{{ url }}">{{ name }}</a>
+<div>
+<fb:like href="{{ url }}" show_faces='true' width='50' layout='button_count' font=''></fb:like>
+<form>
+    <span id="stars-cap"></span>
+    <div class="stars-wrapper2">
+        <!--<select name="selrate">
+            <option value="1">Very poor</option><option value="2">Not that bad</option><option value="3">Average</option><option value="4" selected="selected">Good</option><option value="5">Perfect</option>
+        </select>-->
+    </div>
+</form>
+<button class="rec-button">Recommend</button>
+<button class="add-queue-button">Add to Q</button>
+</div>
+<img src="{{ pic }}" alt="name" name="{{ category }}">
+<a target='_blank' href="{{ url }}" name="{{ item_id }}">{{ name }}</a>
+</div>
+<!--
+<div id="suggest-input" style="width: 450px; overflow: hidden;" class="suggest-friends-block">
+	<button class="suggestb float-right">Suggest To</button>
+	<div class="formWrap">
+	<form class="messageForm" action="#">
+		<div class="friends ui-helper-clearfix float-left ui-corner-all">
+			<input class="to" type="text">
+		</div>
+	</form>
+	</div>
+</div>-->

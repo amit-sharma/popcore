@@ -1,0 +1,6 @@
+<div class="people-suggestor">
+{% for friend in friends %}
+<!--<input type="radio" id="radio{{ friend.id }}" name="radio" /><label for="radio{{ friend.id }}">{{ friend.name }}</label>-->
+<button id="{{ friend.facebook_id }}">{{ friend.name }}</button>
+{% endfor %}
+</div>

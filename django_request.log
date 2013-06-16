@@ -1,0 +1,5 @@
+2012-04-14 20:59:06,005 [WARNING] django.request: Not Found: /favicon.ico
+2012-04-14 20:59:23,329 [WARNING] django.request: Not Found: /favicon.ico
+2012-04-14 21:25:28,503 [WARNING] django.request: Not Found: /favicon.ico
+2012-04-14 21:25:46,567 [WARNING] django.request: Not Found: /favicon.ico
+2012-04-14 21:28:42,095 [WARNING] django.request: Not Found: /favicon.ico

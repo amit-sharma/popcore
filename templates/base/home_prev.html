@@ -1,0 +1,914 @@
+<html xmlns:fb="http://www.facebook.com/2008/fbml"><head>
+    <meta charset=UTF-8>
+	<title>PopCore</title>
+	<script type="text/javascript">if (window.location.hash == '#_=_')window.location.hash = '';</script>
+	<link type="text/css" href="{{ STATIC_URL }}css/july25/jquery-ui.custom.css" rel="stylesheet" />
+    <link type="text/css" href="{{ STATIC_URL }}css/styles.css" rel="stylesheet" />
+    <link type="text/css" href="{{ STATIC_URL }}css/jquery.qtip.css" rel="stylesheet" />
+	
+	
+</head><body>
+<div id="fb-root"></div>
+
+<div class="content" style="margin-top: 10px;">
+	{% if request.GET.fb_error_or_cancel %}
+		<div class="error">
+			Please click allow in the facebook interface, to access PopCore.
+		</div>
+	{% endif %}
+	
+	<div class="error" id="django_static_error">
+		Couldn't load the static Javascript files, is django static configured correctly?
+		<a href="http://docs.djangoproject.com/en/1.3/howto/static-files/" target="_blank">See the docs here.</a>
+	</div>
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    
+</div>
+
+
+<div id="supercontainer">
+    <div id="items_eq">
+			<div id="movies_eq">88</div>
+			<div id="books_eq">77</div>
+			<div id="music_eq">55</div>
+			<div id="tvshows_eq">65</div>
+    </div>
+    <div id="bottomcontainer">
+		<div class="tag-cloud" id="default_tag_cloud" style="overflow:hidden"></div>
+	</div>
+	<div id="genre_tabs">
+	        <ul>
+		        <li><a href="#gtabs-1" style="width:30px; height:8px;"></a></li>
+		        <li><a href="#gtabs-2" style="width:50px; height:8px;"></a></li>
+        	</ul>
+	        <div id="gtabs-1">
+	            <div id="genre_slider">
+	                <div>88</div>
+			        <div>15</div>
+			        <div>65</div>
+			    </div>
+	        </div>
+	        <div id="gtabs-2">
+	            <div id="people_slider">
+	                <div>88</div>
+			        <div>77</div>
+			        <div>55</div>
+			    </div>
+		    </div>
+	    </div>
+<div id="topcontainer">    
+</div>	
+	<div id="hello_user">
+    {% if request.user.is_authenticated %}
+				    Hello {{ name }}<br/>
+		<a href="{% url django.contrib.auth.views.logout %}?next={% url base.views.landing %}">logout</a>
+	</div>
+	
+	<!-- div for search and suggest  -->
+	<div id="suggest_section" class="medium-font">
+	    <img src='{{ STATIC_URL}}images/searchbox.png' style="position: relative;top: -14px;left: -125px;"/>
+	    <input id="search" class="ui-corner-all" value="Search stuff..." />
+		<input type="hidden" id="search-id"/>
+		<p id="search-description"></p>
+		<!--
+		<div class="ui-widget" style="margin-top:2em; font-family:Arial">
+			<div id="log" class="ui-helper-hidden">
+				<div id="log-content" style="width: 450px; overflow: auto;"></div>
+				<div id="suggest-input" style="width: 450px; overflow: hidden;" class="suggest-friends-block">
+					<button class="suggestb float-right">Suggest To</button>
+					<div class="formWrap">
+					<form class="messageForm" action="#">
+						<div class="friends ui-helper-clearfix float-left ui-corner-all">
+							<input class="to" type="text">
+						</div>
+					</form>
+					</div>
+				</div>
+			</div>
+		</div>-->
+	</div>
+    
+    
+	<div id="middlecontainer">
+		
+		<ul class="grid" id="default_items_list">		
+		</ul>		    
+		
+		<div id="log" class="ui-helper-hidden">
+			<div id="log-content" style="width: 450px; overflow: auto;"></div>
+			<div id="suggest-input" style="width: 450px; overflow: hidden;" class="suggest-friends-block">
+				<button class="suggestb float-right">Suggest To</button>
+				<div class="formWrap">
+				<form class="messageForm" action="#">
+					<div class="friends ui-helper-clearfix float-left ui-corner-all">
+						<input class="to" type="text">
+					</div>
+				</form>
+				</div>
+			</div>
+		</div>
+		
+	{% else %}
+			You are not logged in, Please login by clicking the link:
+			<div style="margin-top: 60px;">
+            <div class="inner_content">
+			<!--form to call registration via facebook -->
+            <form action="{% url facebook_connect %}?facebook_login=1" method="post">
+                {% csrf_token %}
+                <!--could give FB scope permissions here, in F.connect(this.parentNode,['email', 'user_likes']) but using settings.py -->
+	            <a href="javascript:void(0);" style="font-size: 20px;" onclick="F.connect(this.parentNode);">Register, login or connect with facebook</a>
+				<input type="hidden" value="{% url base.views.home %}" name="next" />
+				<input type="hidden" value="{% url base.views.home %}" name="redirect_url" />
+				<!--
+				use error next for a seperate error page
+				<input type="hidden" value="/error/" name="error_next" />
+				-->
+	        </form>
+	        <iframe src="http://www.facebook.com/plugins/facepile.php?app_id={{ FACEBOOK_APP_ID }}&amp;width=500&amp;max_rows=1" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px;" allowTransparency="true"></iframe>
+	    </div>
+	 </div>
+
+    {% endif %}
+	</div>
+	
+	
+	
+   
+    <!--
+	<div class="suggest-friends-block" style="overflow: hidden;">'+
+			'<div class="formWrap"><form class="messageForm" action="#">'+
+				'<div class="friends ui-helper-clearfix float-left ui-corner-all" style="width:150px">'+
+					'<input class="to" type="text" style="width:50px">'+
+				'</div>'+
+			'</form></div></div>-->
+	<div id="suggest_dialog" class="ui-helper-hidden" title="Suggest">
+		<span class="validateTips">Share a message:</span>
+
+		<fieldset>
+		    <legend> Share </legend>
+		    <form>
+		    <div class="friends ui-helper-clearfix float-left ui-corner-all">
+		         <input class="to" type="text">
+		    </div>
+		    <br />
+			<label for="Message">Message</label>
+			<textarea rows="3" cols="20" name="message" id="message" class="text ui-widget-content ui-corner-all"></textarea>
+			</form>
+		</fieldset>
+		
+	</div>
+	
+</div>
+
+<!-- start yulan ----->
+<div id="switchbutton">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="{{ STATIC_URL }}images/movieslider.png"/></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="{{ STATIC_URL }}images/musicslider.png"/></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="{{ STATIC_URL }}images/tvslider.png"/></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="{{ STATIC_URL }}images/bookslider.png" />
+</div>
+
+</div>
+
+<div id="realtime">
+<p>Real Time updates</p>
+<ul></ul>
+</div>
+
+<div id="recommend">
+</div>
+
+<div id="content">
+	<div id="item_type_chooser">
+		    <input type="radio" id="movie_choose" name="radio"  checked="checked" /><label for="movie_choose" style="background-image: url('{{ STATIC_URL }}images/movies.png')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	    	<input type="radio" id="book_choose" name="radio"/><label for="book_choose" style="background-image: url('{{ STATIC_URL }}images/books.png')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+		    <input type="radio" id="music_choose" name="radio" /><label for="music_choose" style="background-image: url('{{ STATIC_URL }}images/musics.png')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+		    <input type="radio" id="tv_choose" name="radio" /><label for="tv_choose" style="background-image: url('{{ STATIC_URL }}images/tv.png')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	    </div>
+	<!--    <img src="{{ STATIC_URL }}images/movies.png"/><img src="{{ STATIC_URL }}images/musics.png"/><img src="{{ STATIC_URL }}images/tv.png"/><img src="{{ STATIC_URL }}images/books.png"/></p>-->
+  <div class="scroll">
+  	<p><img src="{{ STATIC_URL }}images/up.png" align="middle" /></p>
+    </div>
+    
+  <div class="scroll">
+  	<p><img src="{{ STATIC_URL }}images/down.png" align="middle" style="position: absolute; top:575px; left:225px;" /></p>
+    </div>
+    <a href="https://docs.google.com/spreadsheet/viewform?formkey=dGFIcFRrdGpWWW1IajM3X0xXWGhqeXc6MQ#gid=0" style="position:absolute; top:550px; left:400px;"> Feedback</a>
+</div> 
+
+<div id="miniprofile" style="position: absolute; top: 300px; left: 1050px">
+<p>{{ name }}</p>
+<p> 12 Pops </p>
+<p> 3 accepted  </p>
+</div>
+
+<div id="N">
+	<img class="notification-icon" src="{{ STATIC_URL }}images/N-icon.png" height="55" width="65"/>
+    <img class="profile-icon" src="{{ STATIC_URL }}images/profile.png"height="55" width="45"/>
+</div>
+
+
+<div id="secondslider">
+  <p><img src="{{ STATIC_URL }}images/button2.png" height=37px width=165px /></p>
+  <p><b>Action:</b><img src="{{ STATIC_URL }}images/slider1.png" height=21px width=146px /></p>
+  <p><b>Sci-Fi:</b><img src="{{ STATIC_URL }}images/slider1.png" height=21px width=146px /></p>
+  
+  <p><b>Comedy:</b><img src="{{ STATIC_URL }}images/slider1.png" height=21px width=146px /></p>
+
+
+</div>
+<div class="droppable sortable" id="queue_area" style="left:824px; top:807px;height:136px;width:130px;border:2px solid chocolate; position: absolute; text-align:center; vertical-align:center"></div>
+<div id="queue_area2"></div>
+
+<div id="queue-confirm" title="Added to Queue">
+	<p>
+		<span class="ui-icon ui-icon-circle-check" style="float:left; margin:0 7px 50px 0;"></span>
+		Item successfully added.
+	</p>
+</div>
+
+<div id="recency_chooser">
+</div>
+
+<div id="nowknob_overlay" style="width:120px; height:70px; position:absolute; top:160px; left:920px;">
+    <div id="nowknob1" style="width:30%; height:100%; float:left"></div>
+    <div id="nowknowb2" style="width:30%; height:100%;float:left"></div>
+    <div id="nowknob3" style="width:30%; height:100%;float:left"></div>
+    <
+</div>
+
+
+<!---====end yulan---->
+
+<div id="dialog_sharefb" title="Not yet on PopCore">
+	<p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>Share on Facebook instead?</p>
+</div>
+
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery-css-transform.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/rotate3Di.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.raty.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.qtip.pack.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/functions.js"></script>
+<script type="text/javascript">
+	var content = document.getElementById('default_items_list');
+	var dumpText = function(text){
+		content.innerHTML = content.innerHTML + text;
+	};
+	function mySideChange(front) {
+	    if (front) {
+	        $(this).children('div:first').hide();
+	        $(this).children('img:first').show();
+	    } else {
+	        $(this).children('img:first').hide();
+	        $(this).children('div"first').show();
+	    }
+	}
+
+	function myComplete() {
+	    //$('#ex7').css('backgroundColor', '#f00');
+	}
+
+	// Function to get random number upto m
+	// http://roshanbh.com.np/2008/09/get-random-number-range-two-numbers-javascript.html
+	function randomXToY(minVal,maxVal,floatVal) {
+		var randVal = minVal+(Math.random()*(maxVal-minVal));
+		return typeof floatVal=='undefined'?Math.round(randVal):randVal.toFixed(floatVal);
+	}
+	var dragging = false;
+	
+	// TODO snapping to grids/objects
+	var makeItemsDraggable = function() {
+		/*$(".draggable").draggable({
+			connectToSortable: ".sortable",
+			revert:"invalid",
+			containment: "#middlecontainer",
+			scroll: true,
+			opacity: 0.7
+		});*/
+		$("#default_items_list").sortable({
+			connectWith: "#queue_area",
+			//containment: "#middlecontainer",
+			scroll: true,
+			opacity: 0.8,
+			revert: "invalid",
+			snap: true,
+			start: 	function(event, ui) {
+						dragging = true;
+					},
+			stop:	function(event,ui) {
+						dragging=false;
+					}
+		});
+		$("#default_items_list li").mouseup(function(){
+			if (!dragging) {
+				$(this).rotate3Di('toggle', 'normal', {sideChange: mySideChange, complete: myComplete});
+			}
+		});
+		$("#default_items_list li").each(function () {
+
+			var tempVal = Math.round(Math.random());
+			if(tempVal == 1) {
+				var rotDegrees = randomXToY(330, 360); // rotate left
+			} else {
+				var rotDegrees = randomXToY(0, 30); // rotate right
+			}
+			
+			var position = $(this).parent().offset();
+			var wiw = $(this).parent().width();
+			var wih = $(this).parent().height();
+			
+			var leftpos = Math.random()*(wiw - $(this).width()) + position.left;
+			var toppos = Math.random()*(wih - position.top) + position.top;
+			var cssObj = { 'left' : leftpos,
+				'top' : toppos
+			};
+				//'-webkit-transform' : 'rotate('+ rotDegrees +'deg)',  // safari only
+				//'-moz-transform' : 'rotate('+ rotDegrees +'deg)',  // firefox only
+				//'tranform' : 'rotate('+ rotDegrees +'deg)' }; // added in case CSS3 is standard
+			$(this).css(cssObj);
+			$(this).css('transform', 'rotate('+ rotDegrees +'deg)');
+			$(this).find('.rec-button').each(function(){
+			    var item_name=$(this).parent().children('a:first').text();
+                var item_link = $(this).parent().children('a:first').attr('href');
+                var item_id = $(this).parent().children('a:first').attr('name');
+			                            
+                var pic_url=$(this).parent().next().attr('src');
+			    $(this).qtip(
+                        {
+                        content: {
+                        text: '<img class="throbber" src="{{ STATIC_URL }}images/loading.gif" alt="Loading..." />',
+                        ajax: {
+                            url: '{% url recommender.views.suggestPeople %}',
+                            type: 'GET',
+                            data: {'item_id':item_id},
+                            success: function(data, status) {
+            				    this.set('content.text', data);
+            				    
+            				    $('.people-suggestor button'). each(function() {
+            				        $(this).button();
+            				        $(this).click(function()  {
+			                            var item_pic;
+			                            var fr_id = $(this).attr('id');
+			                            var friend = $(this).children("span:first").text();
+	                                    $.get('{% url base.views.get_imageshack %}', {img_url: pic_url}, function(resp){
+	                                            //alert(resp);
+	                                            //$('#ajax_placeholder').attr('src', resp);
+	                                            item_pic = resp;
+	                                            $('#suggest_dialog').data('item_info', {'name':item_name, 'id':item_id, 'link':item_link, 'caption':"", 'picture':item_pic, 'fr_id':fr_id, 'friend':friend});
+	                                            
+			                                    $('#suggest_dialog').dialog("open");
+
+	                                    });
+            				        });
+            				    });
+            				   
+                			}
+                            
+                        },
+                        title: {
+                           text: 'Choose Friends', // Give the tooltip a title using each elements text
+                           button: 'Close' // Show a close link in the title
+                        }
+                     },
+                     position: {
+                        corner: {
+                           target: 'bottomMiddle', // Position the tooltip above the link
+                           tooltip: 'topMiddle'
+                        },
+                        adjust: {
+                           screen: true // Keep the tooltip on-screen at all times
+                        }
+                     },
+                     show: { 
+                        event: 'click',
+                        solo:true,
+                     },
+                     hide: {
+			            event: 'click',
+			            target: $('button'),
+			            fixed: true
+		             }, 
+		             style: {
+                        tip: true, // Apply a speech bubble tip to the tooltip at the designated tooltip corner
+                        border: {
+                           width: 0,
+                           radius: 4
+                        },
+                        widget:true,
+                        //width: 170 // Set the tooltip width
+                     },
+                     events: {
+		                render: function(event, api) {
+			                api.elements.tooltip.click(function(){$(this).hide();});
+		                }
+	                }
+                  });
+             });
+		});
+	};
+	
+    function pick(arg, def) {
+        return (typeof arg == 'undefined' ? def : arg);
+}
+	function getCurrentConfig(config ) {
+	    var newconfig = new Object;
+	    newconfig.maxitems = pick(config.maxitems, 10);
+	    newconfig.category = pick(config.category, false);
+	    newconfig.movieseq = pick(config.movieseq, $('#movies_eq').slider("value"));
+	    newconfig.musiceq = pick(config.musiceq, $('#music_eq').slider("value"));
+	    newconfig.bookseq = pick(config.bookseq, $('#books_eq').slider("value"));
+	    newconfig.tvshowseq = pick(config.tvshowseq, $('#tvshows_eq').slider("value"));
+	    newconfig.recent = pick(config.recent,50);
+	    
+	    if (newconfig.category == false)
+	        delete newconfig.category;
+	    return newconfig;
+	}
+	
+	function showUpdatedItems(config) {
+	    var loadingsign = "Welcome to one of our experiments at PopCore Labs. PopCore is a recommender system spanning across the entertainment domain, that aims to make sharing and discovery more social, and more fun. <br/> This experiment requires a pair of participants. You are welcome to try it alone, but it is recommended that you signup along with a person that you know. We will ask you to rate a few items which PopCore thinks you may like. In addition, we will also ask you to suggest 5 of these to the second person. These will be items you think will be most suited for him/her. Once this is done we will ask you for some feedback that will help us understand your experience better and make PopCore better for all. <br/>Thanks, and welcome again! Please click <a href='#'>Start</a> when you are ready.  <li style='position: absolute; left: 215px; text-align:center'><img src='{{ STATIC_URL }}images/loading.gif' style='border:none' /> Loading... </li>";
+	    $("#default_items_list").html(loadingsign);
+	    $.post("{% url recommender.views.content %}", config,  function (ret_html) {
+	            $("#default_items_list").html(ret_html);
+	            makeItemsDraggable();
+	            if (typeof FB !== 'undefined') {
+                    FB.XFBML.parse(document.getElementById('default_items_list'));
+                }
+                $('#default_items_list .rec-button').mouseup(function(event) {
+                        event.stopPropagation();
+                
+                });
+                
+                $('#default_items_list .stars-wrapper2').mouseup(function(event) {
+                        event.stopPropagation();
+                
+                });
+                /*
+                $('#default_items_list .rec-button').click(function(event) {
+                        event.stopPropagation();
+                        var item_name=$(this).parent().children('a:first').text();
+			            var item_link = $(this).parent().children('a:first').attr('href');
+			            var item_id = $(this).parent().children('a:first').attr('name');
+			            //alert(item_name);
+			            
+			            var pic_url=$(this).parent().next().attr('src');
+			            var item_pic;
+	                    $.get('{% url base.views.get_imageshack %}', {img_url: pic_url}, function(resp){
+	                            //alert(resp);
+	                            //$('#ajax_placeholder').attr('src', resp);
+	                            item_pic = resp;
+	                            $('#suggest_dialog').data('item_info', {'name':item_name, 'id':item_id, 'link':item_link, 'caption':"", 'picture':item_pic});
+	                            
+			                    $('#suggest_dialog').dialog("open");
+
+	                    });
+                });*/
+                $('.stars-wrapper2').raty({
+                        path: '{{ STATIC_URL}}images/ratings/',
+                        half:true,
+                        hintList: ['bad', 'poor', 'regular', 'good', 'brilliant'],
+                        click: function(score, evt) {
+                            //alert("Yo");
+                            ;
+                        }
+                });
+                
+	
+	    });
+	}
+
+function poll(){
+    //alert("Polling");
+    /*
+    //$.ajax({ url: "{% url base.realtime.notify %}", success: function(data){
+        //Update your dashboard gauge
+        $("#realtime > ul").html(data);
+
+    }, dataType: "text", complete: poll, timeout: 30000 });
+    */
+    ;
+}
+
+$(document).ready(function() {  
+    //Required for raty plugin to work
+	$('body').data('raty_id_counter',0);
+	
+	
+    $('a').attr('target', '_blank');
+    $( "#items_eq > div" ).each(function() {
+		// read initial values from markup and remove that
+		var value = parseInt( $( this ).text(), 10 );
+		$( this ).empty().slider({
+			value: value,
+			range: "min",
+			animate: true,
+			orientation: "horizontal",
+			change: function( event, ui) {
+			    config = getCurrentConfig({});
+			    showUpdatedItems(config);
+			    
+			}
+		});
+	});
+
+	$("#item_type_chooser").buttonset();
+	$("#item_type_chooser > input").each (function() { 
+	    $(this).data('select_flag', false);
+	    if ($(this).is(":checked")) {
+	        /*$.post("{% url recommender.views.content %}", { category: $(this).attr('id')}, function (ret_html) {
+	            $("#default_items_list").html(ret_html);
+	            makeItemsDraggable();
+	        });*/
+	        $(this).data('select_flag', true);
+	        showUpdatedItems(getCurrentConfig({category:$(this).attr('id')}));
+	     }
+	    $(this).click(function() {
+	        /*$.post("{% url recommender.views.content %}", { category: $(this).attr('id')}, function (ret_html) {
+	            $("#default_items_list").html(ret_html);
+	            makeItemsDraggable();
+	        });*/
+	        if ($(this).data('select_flag')) {
+	            $(this).attr('checked', false);
+	            $(this).button('refresh');
+	            $(this).data('select_flag', false);
+	            showUpdatedItems(getCurrentConfig({max_items:10}));
+	        } else {
+	            $(this).data('select_flag', true);
+	            showUpdatedItems(getCurrentConfig({ category: $(this).attr('id'), max_items:10}));
+	        }
+	    });
+	});
+	/*
+	$( "#recency_chooser" ).slider({
+			range: true,
+			min: 0,
+			max: 100,
+			values: [ 75, 100 ],
+			slide: function( event, ui ) {
+				;
+			}
+	});*/
+	$('#recency_chooser').speedometer({percentage:50});
+	
+	$( "#genre_tabs" ).tabs({
+        select: function(event, ui) { 
+            var index = ui.index + 2;
+            $("#secondslider").children("p:first").children("img:first").attr('src', '{{ STATIC_URL }}images/button'+index+'.png');
+         }
+    });
+	//top container done
+	
+	$.get("{% url visualizor.views.tagcloud %}", function(returned_html) {
+		$("#bottomcontainer #default_tag_cloud").html(returned_html);
+	});
+	
+		
+	$( "#genre_slider > div" ).each(function() {
+		// read initial values from markup and remove that
+		var value = parseInt( $( this ).text(), 10 );
+		$( this ).empty().slider({
+			value: value,
+			range: "min",
+			animate: true
+		});
+	});
+	$( "#people_slider > div" ).each(function() {
+		// read initial values from markup and remove that
+		var value = parseInt( $( this ).text(), 10 );
+		$( this ).empty().slider({
+			value: value,
+			range: "min",
+			animate: true
+		});
+	});
+	
+	$( "#queue_area" ).droppable({
+		accept: "#default_items_list > li",
+		hoverClass: "ui-state-hover",
+		//activeClass: "ui-state-hover",
+		drop: function( event, ui ) {
+			$( this )
+				.addClass( "ui-state-highlight" )
+				.html( "Dropped!");
+		    $( "#queue-confirm" ).dialog('open');
+			ui.draggable.hide();
+		}
+	});
+	
+	var msg_input = $( "#message" ),
+			allFields = $( [] ).add( msg_input );
+		
+	$('#suggest_dialog').dialog({
+	    autoOpen: false,
+	    width: 300,
+	    buttons: {
+					"Share": function() {
+						var bValid = true;
+						allFields.removeClass( "ui-state-error" );
+
+						bValid = bValid && checkLength( msg_input, "message", 1, 250 );
+
+						if ( bValid ) {
+							//Post to profile
+							//$item_info = $('#log-content').children().first();
+							item_info = $(this).data('item_info');
+							var item_id = item_info['id'];
+							//alert(item_info['name'] + item_info['link']);
+							//alert(item_info['picture']);
+							var postObj={
+									message: msg_input.val(),
+									name: item_info['name'],
+					                link: item_info['link'],
+					                picture: item_info['picture'],
+					                caption: item_info['caption'],
+					                description: '',
+									actions: {name: 'View it on Pop Core', link: 'http://apps.facebook.com/popcore'}
+								};
+
+							$('#suggest_dialog .friends > span').each(function(index){
+								var fr_id = $(this).attr('id');
+								//alert(fr_id);
+								
+								$.get("{% url base.realtime.addSuggestion %}", {'item_id':item_id, 'target':fr_id, 'message': "Hello"}, function(resp) {
+                                    //alert(resp);
+                                    if (resp == '0'){
+                                        $( "#dialog_sharefb" ).dialog({
+			                                resizable: false,
+			                                height:200,
+			                                buttons: {
+				                                "Share on wall": function() {
+				                                    FB.api('/'+fr_id+'/feed', 'post', postObj, function(response) {
+									                     if (!response || response.error) {
+										                     alert('Error occured' + JSON.stringify(response.error));
+									                     } else {
+							                      			alert('Post ID: ' + response.id);
+									                     }
+								                    });
+					                                $( this ).dialog( "close" );
+				                                },
+				                                Cancel: function() {
+					                                $( this ).dialog( "close" );
+				                                }
+			                                }
+		                                });
+                                    }
+                                });
+							});
+							
+							
+							$( this ).dialog( "close" );
+						}
+					},
+					Cancel: function() {
+						$( this ).dialog( "close" );
+					}
+				},
+			close: function() {
+					allFields.val( "" ).removeClass( "ui-state-error" );
+					$(".remove").trigger('click');
+				},
+		    open: function(event, ui) {
+		            var item_info =$(this).data('item_info');
+		            var fr_id = item_info['fr_id'];
+		            var friend = item_info['friend'];
+		            //alert(fr_id+friend);
+	                var span = $("<span>").attr('id', fr_id).attr('class', 'ui-state-highlight').text(friend);
+	                var a = $("<a>").addClass("remove").attr({
+		                href: "javascript:",
+		                title: "Remove " + friend
+	                }).text("x").appendTo(span);
+
+	                //add friend to friend div
+	                span.insertBefore($("#suggest_dialog .to").filter(":first"));
+                },
+			show: 'blind',
+			hide: 'blind',
+			closeText: 'Skip'
+	});
+	
+	//add click handler to friends div
+	$(".friends").live("click", function(){
+		//focus 'to' field
+		$(this).children('input').first().focus();
+	});
+	
+	//add live handler for clicks on remove links
+	$(".remove").live("click", function(){
+	
+		//remove current friend
+		$(this).parent().remove();
+		
+		//correct 'to' field position
+		/*TODO: correct this when we have multiple friend suggest boxes
+		if($(".friends span").length === 0) {
+			$(".to").css("top", 0);
+		}				*/
+		if($(this).parent().length === 0) {
+			$(".to").css("top", 0);
+		}	
+	});
+	
+	
+	$('#suggest_section #search').focus(function(){
+				if ($(this).val() == "Search stuff...")
+					$(this).val("");
+	});
+	
+	friends_list = "{{ friends_json }}"
+	//autocomplete for friend completer
+	$('.to').autocomplete({
+   				source: jQuery.parseJSON(friends_list.replace(/&quot;/g, "\"")),
+   				//define select handler
+   				select: function(e, ui) {
+   					insertFormattedFriend($(this),ui);
+   					$(this).val("");
+   					//alert($(this).val());
+   					//create formatted friend
+    				},
+   				//define select handler
+   				change: function() {
+   					//prevent 'to' field being updated and correct position
+   					$(this).val("").css("top", 2);
+   				}
+   	});
+   
+	//autocomplete for search items
+	var cache = {}, lastXhr;		
+	$( "#suggest_section #search" ).autocomplete({
+			minLength:3,
+			delay: 300,
+			source: function( request, response ) {
+			            //alert("Entered source");
+						var term = request.term;
+						if ( term in cache ) {
+							response( cache[ term ] );
+							return;
+						}
+
+						lastXhr = $.getJSON( "{% url recommender.views.search %}", { query: request.term }, function(data, status, xhr) {
+																		cache[ term ] = data;
+																		if ( xhr === lastXhr ) {
+																			response( data );
+																		}
+																	});
+					},
+			select: function( event, ui ) {
+						$.get("{% url recommender.views.showItem %}", {'id':ui.item.id,'name': ui.item.label,'category': ui.item.category}, function(returned_html) {
+		                    $("#middlecontainer #default_items_list").html(returned_html);
+		                    $("#middlecontainer #log").show();
+		                    if (typeof FB !== 'undefined') {
+                                FB.XFBML.parse(document.getElementById('default_items_list'));
+                            }
+                            $('.stars-wrapper2').raty({
+                                path: '{{ STATIC_URL}}images/ratings/',
+                                half: true,
+                                hintList: ['bad', 'poor', 'regular', 'good', 'brilliant'],
+                                click: function(score, evt) {
+                                    //alert("Yo");
+                                    ;
+                                }
+                            });
+	                    });
+						
+					},
+			open: 	function() {
+						$( this ).removeClass( "ui-corner-all" ).addClass( "ui-corner-top" );
+					},
+			close: 	function() {
+						$( this ).removeClass( "ui-corner-top" ).addClass( "ui-corner-all" );
+					}
+		}).data( "autocomplete" )._renderItem = function( ul, item ) {
+		                                            //alert(item.label);
+													return $( "<li></li>" ).data( "item.autocomplete", item )
+																.append( "<a><span class='bold-text'>" + item.label + "</span><br>" + item.category + "</a>" ).appendTo( ul );
+												};
+   $.widget( "custom.catcomplete", $.ui.autocomplete, {
+		_renderMenu: function( ul, items ) {
+			var self = this,
+				currentCategory = "";
+			$.each( items, function( index, item ) {
+				if ( item.category != currentCategory ) {
+					ul.append( "<li class='ui-autocomplete-category'>" + item.category + "</li>" );
+					currentCategory = item.category;
+				}
+				self._renderItem( ul, item );
+			});
+		}
+	});
+	
+	$( "#queue-confirm" ).dialog({
+			modal: true,
+			autoOpen: false,
+			buttons: {
+				Ok: function() {
+					$( this ).dialog( "close" );
+				}
+			}
+    });
+    
+    $('.notification-icon').click (function (event){
+        alert("Yo1");
+    });
+    
+    $('.profile-icon').click (function (event){
+     alert("Yo");
+    });
+    
+    poll();
+    $('#nowknob1').click(function(){
+        $('#recency_chooser').speedometer({percentage:30});
+    });
+    $('#nowknob2').click(function(){
+        $('#recency_chooser').speedometer({percentage:50});
+    });
+    $('#nowknob3').click(function(){
+        $('#recency_chooser').speedometer({percentage:70});
+    });
+    	    
+	/*
+	
+	 $(".tooltip").qtip({
+            content: '<span style="font-size:14px; line-height:120%;"><b>Suggest to:</b> <br /> <input type="text" value="Enter names" name="friendname" title="friendname" size="15" style="color:#888" /> <br/ > <hr style="color: #C0C0C0;background-color: #C0C0C0;height: 1px;" /><b>Or maybe to:</b> <br /> Person 1 <br/> Friend 2 <br/> Friend 3</span>',
+            position: { corner: { target: 'rightMiddle', tooltip: 'leftMiddle'} },
+            style: { name: 'dark', tip: 'leftMiddle', border: { width: 2, radius: 1 }, width: 100 },
+            show: { when: { event: 'focus'} },
+            hide: { delay: 10000, fixed: true, when: { event: 'inactive'} }
+        });*/
+	
+});
+</script>
+<script src="{{ STATIC_URL }}js/facebook.js" type="text/javascript"></script>
+<script src="{{ STATIC_URL}}js/statictest.js" type="text/javascript"></script>
+<script src="{{ STATIC_URL }}js/jquery.speedometer.js" type="text/javascript"></script>
+<script src="{{ STATIC_URL }}js/jquery.jqcanvas-modified.js" type="text/javascript"></script>
+<script src="{{ STATIC_URL }}js/excanvas-modified.js" type="text/javascript"></script>
+
+<script>
+	facebookAppId = '{{ FACEBOOK_APP_ID }}';
+	function facebookJSLoaded(){
+	    //alert(facebookAppId);
+		FB.init({appId: facebookAppId, status: true, cookie: true, xfbml: true, oauth: true});
+		//resizing and removing the ugly scroll bars
+		FB.Canvas.setAutoResize();
+		
+		/* All the events registered */
+	    FB.Event.subscribe('auth.login', function(response) {
+	         // do something with response
+	         //alert("Logged in");
+	     	 // whenever the user logs in, we refresh the page
+	         //window.location.reload();
+	    });
+	    FB.Event.subscribe('auth.logout', function(response) {
+	         // do something with response
+	     	sendAJAXCloseEvent();
+	    });
+
+	 	FB.Event.subscribe('edge.create', function(href, widget){
+		 	//alert("You liked "+ href);
+		 	//console.log(widget);
+			var item_id = $(widget['dom']).parent().attr('id');
+			$.ajax({
+				url: "record_user_feedback.php", 
+				data: {'action': 'like', 'item_id': item_id, 'uid':1234},
+				cache: false
+			});
+			
+	 	});
+
+	 	FB.Event.subscribe('edge.remove', function(href, widget){
+		 	//alert("You unliked "+ href);
+		 	var item_id = $(widget['dom']).parent().attr('id');
+			$.ajax({
+				url: "record_user_feedback.php", 
+				data: {'action': 'unlike', 'item_id': item_id, 'uid':1234},
+				cache: false
+			});
+	 	});
+	 	
+	     /*FB.getLoginStatus(function(response) {
+	         if (response.session) {
+	             // logged in and connected user, someone you know
+	             //login();
+	         }
+	     });*/
+	}
+	window.fbAsyncInit = facebookJSLoaded;
+	
+	F = new facebookClass(facebookAppId);
+    F.load();
+    //alert("YO");
+    /*FB.api('/platform', function(response) {
+  alert(response.company_overview);
+});*/
+	
+</script>
+
+</body></html>

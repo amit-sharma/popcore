@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/tests
+END
+convert_json.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/tests/convert_json.py
+END
+base.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/tests/base.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/tests/__init__.py
+END
+test.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/tests/test.py
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/tests/forms.py
+END
+mock_official_sdk.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/tests/mock_official_sdk.py
+END

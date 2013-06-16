@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/cornell_hci_flashback/!svn/ver/217/popcore/trunk/base
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cornell_hci_flashback/!svn/ver/226/popcore/trunk/base/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cornell_hci_flashback/!svn/ver/37/popcore/trunk/base/__init__.py
+END
+utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cornell_hci_flashback/!svn/ver/150/popcore/trunk/base/utils.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/cornell_hci_flashback/!svn/ver/37/popcore/trunk/base/tests.py
+END
+realtime.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/cornell_hci_flashback/!svn/ver/226/popcore/trunk/base/realtime.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cornell_hci_flashback/!svn/ver/231/popcore/trunk/base/models.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/cornell_hci_flashback/!svn/ver/37/popcore/trunk/base/urls.py
+END

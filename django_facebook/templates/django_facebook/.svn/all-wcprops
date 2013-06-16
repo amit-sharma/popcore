@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/templates/django_facebook
+END
+_canvas_base.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/templates/django_facebook/_canvas_base.html
+END
+_facebook_js.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/templates/django_facebook/_facebook_js.html
+END
+my_style.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/templates/django_facebook/my_style.html
+END
+connect.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/templates/django_facebook/connect.html
+END
+canvas.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/templates/django_facebook/canvas.html
+END

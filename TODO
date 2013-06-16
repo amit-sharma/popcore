@@ -1,0 +1,8 @@
+ make the item suggestions people centric---show lists of people first
+have a loader intermediate page that comes up once a user joins from facebook auth--too slow otherwise
+make sure ids match for a user, ids in auth_user, base_userprofile and others 
+ 
+ 
+ ERRORS:
+ Sometimes urllib throws a "read timeout" error. Check for that, especially when a new user logs in.
+ With nginx server, facebook/connect.php throws a 404 not found error.

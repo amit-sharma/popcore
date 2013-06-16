@@ -1,0 +1,1010 @@
+2013-06-16 11:25:48,871 [INFO] django_facebook.api: Got code from the request data
+2013-06-16 11:25:48,872 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x2bc7350>convert_code_AQAQgodfgyUIinz8zhOsjuOwvO0LV95F7PF8gnIN7XEF8Wiqai0dIOMEObVbkkwyIKfNHpy1E5uK25wULNJPwPQowQkU0Ij4B1yuNdCNm5ewKJo2ZyE4ll833XiAs9v0s_m7TpaN5tl0jtvi-_fTtPt1LggYVEYDwT3ILtNwCr016evvtb92JZNIw4Av0rPa_lHASiYh8p0veh-yLKebBumY3gWZ9F9VDKVXJS0128rzikVwLLVWzeJLKE1o0snC3jlR6DjeXmxbz_eGCTiZmy-DhTGLLx7eJ7Xjd909LFHkqoHWp7kyo3pN9Vmjx_ZJe1A
+2013-06-16 11:25:51,929 [INFO] django_facebook.api: Got code from the request data
+2013-06-16 11:25:51,929 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x2bc7350>convert_code_AQAQgodfgyUIinz8zhOsjuOwvO0LV95F7PF8gnIN7XEF8Wiqai0dIOMEObVbkkwyIKfNHpy1E5uK25wULNJPwPQowQkU0Ij4B1yuNdCNm5ewKJo2ZyE4ll833XiAs9v0s_m7TpaN5tl0jtvi-_fTtPt1LggYVEYDwT3ILtNwCr016evvtb92JZNIw4Av0rPa_lHASiYh8p0veh-yLKebBumY3gWZ9F9VDKVXJS0128rzikVwLLVWzeJLKE1o0snC3jlR6DjeXmxbz_eGCTiZmy-DhTGLLx7eJ7Xjd909LFHkqoHWp7kyo3pN9Vmjx_ZJe1A
+2013-06-16 11:27:19,183 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 11:27:19,183 [INFO] django_facebook.views: Facebook authentication needed for connect, raising an error
+2013-06-16 11:27:19,183 [INFO] django_facebook.decorators: requesting access with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 11:27:19,378 [INFO] django_facebook.api: Got code from the request data
+2013-06-16 11:27:19,378 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x20572d0>convert_code_AQB9kJMRjU2xMLgDYAtFvfarKaY6vpRXrL0me8P8TBKTHqjFUZwljS-rIA99rVVAQOttv7tG_hl8QLKNK3CtCA9Q3V3FLK1zjZYDOxx6fsqp-ULaikczAdhajuH1yD2VuW447XJKNSQx48ekCEEWrnzyYdDqTM1ooRQ0J3TVolvPdruyUofNJ6aiezzyviMlXHiN4qE_1AXb56E2JqEPhBW-uCaocN0mvfsqBgF2dxKj3OKEum6JiLo_S-leiP-uvkXtw1-zXkl84zEG9vpPMLq45pvzF-a1mp6iin-d4BrXV4MvOCw0Hu2BbxGpME3yo6Y
+2013-06-16 11:32:26,581 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 11:32:26,581 [INFO] django_facebook.views: Facebook authentication needed for connect, raising an error
+2013-06-16 11:32:26,581 [INFO] django_facebook.decorators: requesting access with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 11:32:37,009 [INFO] django_facebook.api: Got code from the request data
+2013-06-16 11:32:37,010 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x20593d0>convert_code_AQCxDs3APUOG3IJIl0PE5xc7LZhp5OTcAPsImn7YcvUuQgPxtfzEv_geCYpwCu4_RgqJROCtH9_k6vaINJIczSgIcMfEktdILCx8zFSl8RZKJjImFLumUKMHVEqTotbRoYo5jQhyKaCPTJ6_ujQNlId1lj7uz7leNjnZ_1gPKWYp99jd8-trydnEthz0TsYO5VJ9ghhfU3ymD5sit6HrfrSNC5S_kCfZJtCrU7ShVklu0O-lHJflJu4yTwNkwEsX6g3sodYDAbjOsenrbiIs2e8AMD08DPvfwTTVsITslmG4hkEKXHaJ7YDZwA8MHX591N4
+2013-06-16 11:42:52,148 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 11:42:52,149 [INFO] django_facebook.views: Facebook authentication needed for connect, raising an error
+2013-06-16 11:42:52,149 [INFO] django_facebook.decorators: requesting access with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 11:42:52,365 [INFO] django_facebook.api: Got code from the request data
+2013-06-16 11:42:52,365 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x2cd3350>convert_code_14823233707665683008514607000485666007
+2013-06-16 11:42:52,396 [INFO] django_facebook.api: trying to convert the code with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 11:42:52,397 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQC5lfx9ul07zlrJ8wsShZyfEoPXn9qfdqYsP-SF6wl_DTRYTmt1aAo5RYgD-lc55Hxziu026rRe5dElWsgGGvcUHZWd3uGWyGy3BqxxzwU996QnCfCzy_-IFAS1WvK8QUHXozmySx1TTLNnkWziLZKwz-oLLItr2d-FTMgkreaOT5h4XyDZMnweduassuqtBON2AMviuTixwH9Pqw07fdDG2LECCLPp5sd0gou5H7hIw6m6SZkJqEzv9MoNJ54CFoKIshjjZIr3n1Uj_OmYPAwAqK8RftMAjIwRgVkDDshQrszp2VoEavF2DYRhM5Rg6VI&client_id=203744166308131&redirect_uri=http%3A%2F%2Fpopcore.me%2Ffacebook%2Fconnect%2F%3Ffacebook_login%3D1%26attempt%3D1 with post data None
+2013-06-16 11:42:52,399 [WARNING] open_facebook.api: Facebook encountered a timeout (10s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:42:52,400 [WARNING] open_facebook.api: Facebook encountered a timeout (20s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:42:52,400 [WARNING] open_facebook.api: Facebook encountered a timeout (30s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:42:52,408 [WARNING] open_facebook.api: Facebook request failed after several retries, raising error <urlopen error Facebook is unreachable >
+2013-06-16 11:42:52,409 [INFO] django_facebook.api: Got code from the request data
+2013-06-16 11:42:52,409 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x2cd3350>convert_code_14823233707665683008514607000485666007
+2013-06-16 11:42:52,409 [INFO] django_facebook.api: trying to convert the code with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 11:42:52,410 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQC5lfx9ul07zlrJ8wsShZyfEoPXn9qfdqYsP-SF6wl_DTRYTmt1aAo5RYgD-lc55Hxziu026rRe5dElWsgGGvcUHZWd3uGWyGy3BqxxzwU996QnCfCzy_-IFAS1WvK8QUHXozmySx1TTLNnkWziLZKwz-oLLItr2d-FTMgkreaOT5h4XyDZMnweduassuqtBON2AMviuTixwH9Pqw07fdDG2LECCLPp5sd0gou5H7hIw6m6SZkJqEzv9MoNJ54CFoKIshjjZIr3n1Uj_OmYPAwAqK8RftMAjIwRgVkDDshQrszp2VoEavF2DYRhM5Rg6VI&client_id=203744166308131&redirect_uri=http%3A%2F%2Fpopcore.me%2Ffacebook%2Fconnect%2F%3Ffacebook_login%3D1%26attempt%3D1 with post data None
+2013-06-16 11:42:52,411 [WARNING] open_facebook.api: Facebook encountered a timeout (10s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:42:52,411 [WARNING] open_facebook.api: Facebook encountered a timeout (20s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:42:52,415 [WARNING] open_facebook.api: Facebook encountered a timeout (30s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:42:52,415 [WARNING] open_facebook.api: Facebook request failed after several retries, raising error <urlopen error Facebook is unreachable >
+2013-06-16 11:43:55,877 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 11:43:55,877 [INFO] django_facebook.views: Facebook authentication needed for connect, raising an error
+2013-06-16 11:43:55,877 [INFO] django_facebook.decorators: requesting access with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 11:44:02,216 [INFO] django_facebook.api: Got code from the request data
+2013-06-16 11:44:02,216 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x2cd2210>convert_code_85082715822635208656409191739475769696
+2013-06-16 11:44:02,217 [INFO] django_facebook.api: trying to convert the code with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 11:44:02,218 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQBwh-9wT2K2df7K36az_4VJ93SLoXGNxPuvDQdU6FTJYfIAm51ZW7sAUeQuKx9jQ-M3CfJ9aEVUfRWcBZvOd53jfk59z9Bn7WTYHfzOoZQFEa6NCQT5fBHYd93SgMkyWgrYFu4JquPtNaOnbzx62V__q2gym1Yu5Xm-GTUlOJTfjR7nGw40njgPFw_ZCUKD4EH0pCXlNFU1q3kXc4ZHkeUBS2Wrf40baf7mHUXZp5oBfMTE0WcRIf3KTfRQSX6UpoFH3IrFJUGaIxPrTSWbbVc4XY5HtfvcpjomrimeFrwg83nz2YIheKJPnKKZrEBov7E&client_id=203744166308131&redirect_uri=http%3A%2F%2Fpopcore.me%2Ffacebook%2Fconnect%2F%3Ffacebook_login%3D1%26attempt%3D1 with post data None
+2013-06-16 11:44:02,220 [WARNING] open_facebook.api: Facebook encountered a timeout (10s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:44:02,221 [WARNING] open_facebook.api: Facebook encountered a timeout (20s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:44:02,221 [WARNING] open_facebook.api: Facebook encountered a timeout (30s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:44:02,222 [WARNING] open_facebook.api: Facebook request failed after several retries, raising error <urlopen error Facebook is unreachable >
+2013-06-16 11:44:02,222 [INFO] django_facebook.api: Got code from the request data
+2013-06-16 11:44:02,222 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x2cd2210>convert_code_85082715822635208656409191739475769696
+2013-06-16 11:44:02,223 [INFO] django_facebook.api: trying to convert the code with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 11:44:02,223 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQBwh-9wT2K2df7K36az_4VJ93SLoXGNxPuvDQdU6FTJYfIAm51ZW7sAUeQuKx9jQ-M3CfJ9aEVUfRWcBZvOd53jfk59z9Bn7WTYHfzOoZQFEa6NCQT5fBHYd93SgMkyWgrYFu4JquPtNaOnbzx62V__q2gym1Yu5Xm-GTUlOJTfjR7nGw40njgPFw_ZCUKD4EH0pCXlNFU1q3kXc4ZHkeUBS2Wrf40baf7mHUXZp5oBfMTE0WcRIf3KTfRQSX6UpoFH3IrFJUGaIxPrTSWbbVc4XY5HtfvcpjomrimeFrwg83nz2YIheKJPnKKZrEBov7E&client_id=203744166308131&redirect_uri=http%3A%2F%2Fpopcore.me%2Ffacebook%2Fconnect%2F%3Ffacebook_login%3D1%26attempt%3D1 with post data None
+2013-06-16 11:44:02,224 [WARNING] open_facebook.api: Facebook encountered a timeout (10s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:44:02,225 [WARNING] open_facebook.api: Facebook encountered a timeout (20s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:44:02,226 [WARNING] open_facebook.api: Facebook encountered a timeout (30s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:44:02,226 [WARNING] open_facebook.api: Facebook request failed after several retries, raising error <urlopen error Facebook is unreachable >
+2013-06-16 11:53:49,445 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 11:53:49,445 [INFO] django_facebook.views: Facebook authentication needed for connect, raising an error
+2013-06-16 11:53:49,445 [INFO] django_facebook.decorators: requesting access with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 11:53:49,628 [INFO] django_facebook.api: Got code from the request data
+2013-06-16 11:53:49,628 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x2cd3350>convert_code_17049760534191678081531735807086250492
+2013-06-16 11:53:49,629 [INFO] django_facebook.api: trying to convert the code with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 11:53:49,629 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQAOHNtQlavGupSWDL2yco5Dn8rv-T24vx2wO6zpWuIErZuWIBAQgS_9d_9qr2RfTOf0L1Lpquj3IIVXhM6vmmkfeOJXIb7lL_otaxHkptLxVx141sNXk2qd_mlemKzI9z26yP5umXhx_8vhE3w8QiY4xIo0GzQFtFMcUPjjqdd6xNdf37_qBf2Wyin0BAGX8Wbux8Eb9MhRXzPDlDwbFWHkEF3ErdWLzmQ1xagv42iA2nWaTaYpHWnL9m-D6Lm5yqB4cpLwjfvB19iRYQywX3wwahFOBUqlZfgrvIJU_4-Vf7L5Ngg_hjDJDYlS-gWrCOM&client_id=203744166308131&redirect_uri=http%3A%2F%2Fpopcore.me%2Ffacebook%2Fconnect%2F%3Ffacebook_login%3D1%26attempt%3D1 with post data None
+2013-06-16 11:53:49,630 [WARNING] open_facebook.api: Facebook encountered a timeout (10s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:53:49,631 [WARNING] open_facebook.api: Facebook encountered a timeout (20s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:53:49,632 [WARNING] open_facebook.api: Facebook encountered a timeout (30s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:53:49,632 [WARNING] open_facebook.api: Facebook request failed after several retries, raising error <urlopen error Facebook is unreachable >
+2013-06-16 11:53:49,632 [INFO] django_facebook.api: Got code from the request data
+2013-06-16 11:53:49,632 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x2cd3350>convert_code_17049760534191678081531735807086250492
+2013-06-16 11:53:49,633 [INFO] django_facebook.api: trying to convert the code with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 11:53:49,633 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQAOHNtQlavGupSWDL2yco5Dn8rv-T24vx2wO6zpWuIErZuWIBAQgS_9d_9qr2RfTOf0L1Lpquj3IIVXhM6vmmkfeOJXIb7lL_otaxHkptLxVx141sNXk2qd_mlemKzI9z26yP5umXhx_8vhE3w8QiY4xIo0GzQFtFMcUPjjqdd6xNdf37_qBf2Wyin0BAGX8Wbux8Eb9MhRXzPDlDwbFWHkEF3ErdWLzmQ1xagv42iA2nWaTaYpHWnL9m-D6Lm5yqB4cpLwjfvB19iRYQywX3wwahFOBUqlZfgrvIJU_4-Vf7L5Ngg_hjDJDYlS-gWrCOM&client_id=203744166308131&redirect_uri=http%3A%2F%2Fpopcore.me%2Ffacebook%2Fconnect%2F%3Ffacebook_login%3D1%26attempt%3D1 with post data None
+2013-06-16 11:53:49,634 [WARNING] open_facebook.api: Facebook encountered a timeout (10s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:53:49,635 [WARNING] open_facebook.api: Facebook encountered a timeout (20s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:53:49,635 [WARNING] open_facebook.api: Facebook encountered a timeout (30s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 11:53:49,635 [WARNING] open_facebook.api: Facebook request failed after several retries, raising error <urlopen error Facebook is unreachable >
+2013-06-16 12:01:02,642 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 12:01:02,642 [INFO] django_facebook.views: Facebook authentication needed for connect, raising an error
+2013-06-16 12:01:02,642 [INFO] django_facebook.decorators: requesting access with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 12:01:02,836 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 12:01:02,837 [INFO] django_facebook.views: Facebook authentication needed for connect, raising an error
+2013-06-16 12:01:02,837 [INFO] django_facebook.decorators: requesting access with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 12:01:05,863 [INFO] django_facebook.api: Got code from the request data
+2013-06-16 12:01:05,864 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x2cd7310>convert_code_7066279309437750011127310743042766604
+2013-06-16 12:01:05,865 [INFO] django_facebook.api: trying to convert the code with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 12:01:05,865 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQD3LzcuwVECzu_3HFMx44Ea-mXAGsx98VhmAgsXYdxf0CjM0UjET9xlKn381or0H2_YEVZ4kJIw9gJ1zJunz5Wqb20PmG_pG_BVnsBBfsi5PwBFFaAv_kwQCzdSx8BvVowBz3xXWd7EZCz-rwIlyhHBXpK0Cuf2_zBRwILGwWpOZO0C5qGWwscAfVAt0R8RN6drGiJAKRfQmpa13GiNje9RbkKTHD5wlP5LK_W2gV2mUACUT8PJEggKbYh0PYB_bxGWgJoTPcJFK8hJ93sz6nebJBRSv6vJ0BS3i2VFJsYn5_on-XXk2rxx9pN7p87MDFQ&client_id=203744166308131&redirect_uri=http%3A%2F%2Fpopcore.me%2Ffacebook%2Fconnect%2F%3Ffacebook_login%3D1%26attempt%3D1 with post data None
+2013-06-16 12:01:05,867 [WARNING] open_facebook.api: Facebook encountered a timeout (10s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 12:01:05,868 [WARNING] open_facebook.api: Facebook encountered a timeout (20s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 12:01:05,868 [WARNING] open_facebook.api: Facebook encountered a timeout (30s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 12:01:05,869 [WARNING] open_facebook.api: Facebook request failed after several retries, raising error <urlopen error Facebook is unreachable >
+2013-06-16 12:01:05,869 [INFO] django_facebook.api: Got code from the request data
+2013-06-16 12:01:05,869 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x2cd7310>convert_code_7066279309437750011127310743042766604
+2013-06-16 12:01:05,870 [INFO] django_facebook.api: trying to convert the code with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 12:01:05,870 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQD3LzcuwVECzu_3HFMx44Ea-mXAGsx98VhmAgsXYdxf0CjM0UjET9xlKn381or0H2_YEVZ4kJIw9gJ1zJunz5Wqb20PmG_pG_BVnsBBfsi5PwBFFaAv_kwQCzdSx8BvVowBz3xXWd7EZCz-rwIlyhHBXpK0Cuf2_zBRwILGwWpOZO0C5qGWwscAfVAt0R8RN6drGiJAKRfQmpa13GiNje9RbkKTHD5wlP5LK_W2gV2mUACUT8PJEggKbYh0PYB_bxGWgJoTPcJFK8hJ93sz6nebJBRSv6vJ0BS3i2VFJsYn5_on-XXk2rxx9pN7p87MDFQ&client_id=203744166308131&redirect_uri=http%3A%2F%2Fpopcore.me%2Ffacebook%2Fconnect%2F%3Ffacebook_login%3D1%26attempt%3D1 with post data None
+2013-06-16 12:01:05,871 [WARNING] open_facebook.api: Facebook encountered a timeout (10s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 12:01:05,872 [WARNING] open_facebook.api: Facebook encountered a timeout (20s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 12:01:05,872 [WARNING] open_facebook.api: Facebook encountered a timeout (30s) or error <urlopen error [Errno -3] Temporary failure in name resolution>
+2013-06-16 12:01:05,872 [WARNING] open_facebook.api: Facebook request failed after several retries, raising error <urlopen error Facebook is unreachable >
+2013-06-16 12:33:12,069 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 12:33:12,070 [INFO] django_facebook.views: Facebook authentication needed for connect, raising an error
+2013-06-16 12:33:12,070 [INFO] django_facebook.decorators: requesting access with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 12:33:12,369 [INFO] django_facebook.api: Got code from the request data
+2013-06-16 12:33:12,369 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_269432831665095318380699367715256981992
+2013-06-16 12:33:12,371 [INFO] django_facebook.api: trying to convert the code with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 12:33:12,372 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQB5ltCmX2UX0h5ItbdQnAzhOJ24c4dvPrk0KkEaCeHJVjBTaJ5TOKC_aopW-IvJ_abR9Do6ogL-ynjO6UGs69V9AvEUnTjShQAlvkQ7CXlTwWGWWYoPBXqP3pLWM9bW8yChzwkQSvfztZHXlZLejhXra5u41YnlYqSgYHXOp5vYUF0cBu3oVixUqZ7h3N9ad8fcZ3oCiN3jfhySGL7G6hURNfcih3NNXiN8Aanx7nLOjwwoGxDaPyNCSUY-YdI27ZjRsJNp1DbaGWPejA4MapVyklc42VZderaSLPGFnsWZO0Ipyf0yMm21GVhlR2libCc&client_id=203744166308131&redirect_uri=http%3A%2F%2Fpopcore.me%2Ffacebook%2Fconnect%2F%3Ffacebook_login%3D1%26attempt%3D1 with post data None
+2013-06-16 12:33:12,415 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAMZBjtZCsZBzNqMdt37AZAgKEqEdvDIST0ZCaDZCsQjIiuDvAvPjHqOAqg8RemNJirjdsPZCegOPHxy5ZCyhQe7o2SF8u0y0pp1MwQb2yOwfXf4M1bjONtVCsKQlMyZAIWkWaFAPAq9PxazfW0VbXZBKUZD'], u'expires': [u'5179847']}>
+2013-06-16 12:33:12,419 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 12:33:12,419 [INFO] django_facebook.views: found a graph object
+2013-06-16 12:33:12,419 [INFO] open_facebook.api: requesting url https://graph.facebook.com/me?access_token=CAAC5TeKoaSMBAMZBjtZCsZBzNqMdt37AZAgKEqEdvDIST0ZCaDZCsQjIiuDvAvPjHqOAqg8RemNJirjdsPZCegOPHxy5ZCyhQe7o2SF8u0y0pp1MwQb2yOwfXf4M1bjONtVCsKQlMyZAIWkWaFAPAq9PxazfW0VbXZBKUZD
+2013-06-16 12:33:12,419 [INFO] open_facebook.api: requesting url https://graph.facebook.com/me?access_token=CAAC5TeKoaSMBAMZBjtZCsZBzNqMdt37AZAgKEqEdvDIST0ZCaDZCsQjIiuDvAvPjHqOAqg8RemNJirjdsPZCegOPHxy5ZCyhQe7o2SF8u0y0pp1MwQb2yOwfXf4M1bjONtVCsKQlMyZAIWkWaFAPAq9PxazfW0VbXZBKUZD with post data None
+2013-06-16 12:33:12,499 [INFO] open_facebook.api: facebook send response {u'username': u'amt.shrma', u'bio': u'.*', u'first_name': u'Amit', u'last_name': u'Sharma', u'verified': True, u'name': u'Amit Sharma', u'locale': u'en_GB', u'gender': u'male', u'work': [{u'employer': {u'id': u'8570160131', u'name': u'Cornell University'}}], u'email': u'amit_sharma@live.com', u'languages': [{u'id': u'112969428713061', u'name': u'Hindi'}, {u'id': u'106059522759137', u'name': u'English'}], u'quotes': u"If you argue correctly, you're never wrong.", u'link': u'http://www.facebook.com/amt.shrma', u'favorite_teams': [{u'id': u'190313434323691', u'name': u'Indian Cricket Team'}], u'inspirational_people': [{u'id': u'113529011990795', u'name': u'Steve Jobs'}, {u'id': u'106075019423422', u'name': u'Jon Stewart'}], u'timezone': -7, u'education': [{u'school': {u'id': u'111899772162536', u'name': u'Sardar Patel Vidyalaya'}, u'type': u'High School', u'year': {u'id': u'137616982934053', u'name': u'2006'}}, {u'school': {u'id': u'131396710226832', u'name': u'Vishwa Bharati Public School'}, u'type': u'High School'}, {u'school': {u'id': u'271667269604161', u'name': u'IIT Kharagpur'}, u'type': u'College', u'year': {u'id': u'142963519060927', u'name': u'2010'}}, {u'school': {u'id': u'8570160131', u'name': u'Cornell University'}, u'type': u'College'}], u'updated_time': u'2013-06-08T06:43:30+0000', u'id': u'1257750742'}
+2013-06-16 12:33:12,499 [INFO] django_facebook.views: facebook is authenticated
+2013-06-16 12:33:12,907 [INFO] django_facebook.views: Django facebook performed action: django_facebook.connect.LOGIN
+2013-06-16 12:33:21,341 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:33:21,342 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:33:21,342 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:33:21,342 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_50186597846184112394089024118448228573
+2013-06-16 12:33:21,343 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 12:33:21,343 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQDOi0NjJtBK_r9SmtYYttocsf8j4VtxDE2h3KQan8GBOZrC9PQ99q5tcbmW13z4Jfo_89DGQli1SoYh_Fh7MolIkN28Yq9SAEdjeDnA8Y8f8eiHc74waQd7JP6hkWuDDIoEr4JVWnyRMBXJ4Us8eTJIPJNADb9ovFsqfBsMRgpaYn0mW_v-5MbkkEhepO2l-e5Q8muvM8N7X2qdaZr1AkbTIIftbfOksHHr4sH5-3fgWYcdfrr42u84MaBW5uViTHSoA1m9k6WLmtkx9UuAyerukbPER7y4aJRsorW-V2I1_e-q4KF0Xi1DnAfDh-6t_CI&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 12:33:21,391 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAFxF48nS5C88TDUKlZAe7x0dwbpbZCZAO61mUhOYlkLKygxWLAgrY14TWprGZC5WuljygkzDiU8Nk0TBZBlAVtRIc4GnJ7yDnWqRpQvkaFTVV5QMkKVwLGjlOWUMLESlNt2NJPKwOlW2CZA2JfkuZCp185qKVfnFAZDZD'], u'expires': [u'5199']}>
+2013-06-16 12:33:27,539 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:33:27,539 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:33:27,540 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:33:27,540 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_50186597846184112394089024118448228573
+2013-06-16 12:33:33,776 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:33:33,777 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:33:33,777 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:33:33,777 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_50186597846184112394089024118448228573
+2013-06-16 12:33:39,923 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:33:39,924 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:33:39,924 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:33:39,924 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_50186597846184112394089024118448228573
+2013-06-16 12:37:31,204 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:37:31,204 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:37:31,204 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:37:31,205 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_50186597846184112394089024118448228573
+2013-06-16 12:37:37,364 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:37:37,364 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:37:37,364 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:37:37,365 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_109417309522004073857216788089877591768
+2013-06-16 12:37:37,365 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 12:37:37,365 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQDzdT6nWeXbir0tyOCL1uSTkze7QZHUi5_h4n--qmnP2saBdITGfCxxHkpHNcTJagakzS3aaw9ut_lcrk8Dbopgys7OikEFragRBRbcIJe8MinvQ40_AfNlren_-CO5rIiYBRtTVDATzYA4j3IWP3bcAPAvCL0NKBV9sPPOpWodpJa3VRsjTPZBZDPaoewPHaI83YAsDajhp4HPvame8nIv9AOIdaZUbZVTG2KGm_71MMgoO4EIlFnRjdzs62UKbK2GAGbS-cy91uk5zoKqOhSmzHxHRs8d_MAn5ptPgZBoYf80qUxFopvG8pxHZcy-_-s&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 12:37:37,501 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAIur0rQChdVmoAHEqnlcsLpmiH5tsew2g2oy1tXvPNMjulZAhQpSPePAvKthHSNrwuLj1FiPekNLrbhZAJWSS1ViAMDmdcZBmTOEG1nqAv4r8P53isjKRTwXru0C6YHh19x9ZAVdTZBDKr7yJ7cNFviP4ZC0HRLwZDZD'], u'expires': [u'4943']}>
+2013-06-16 12:37:43,644 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:37:43,645 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:37:43,645 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:37:43,645 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_109417309522004073857216788089877591768
+2013-06-16 12:38:19,133 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:38:19,133 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:38:19,133 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:38:19,134 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_109417309522004073857216788089877591768
+2013-06-16 12:38:19,137 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 12:38:19,137 [INFO] django_facebook.views: found a graph object
+2013-06-16 12:38:19,138 [INFO] open_facebook.api: requesting url https://graph.facebook.com/me?access_token=CAAC5TeKoaSMBAIur0rQChdVmoAHEqnlcsLpmiH5tsew2g2oy1tXvPNMjulZAhQpSPePAvKthHSNrwuLj1FiPekNLrbhZAJWSS1ViAMDmdcZBmTOEG1nqAv4r8P53isjKRTwXru0C6YHh19x9ZAVdTZBDKr7yJ7cNFviP4ZC0HRLwZDZD
+2013-06-16 12:38:19,138 [INFO] open_facebook.api: requesting url https://graph.facebook.com/me?access_token=CAAC5TeKoaSMBAIur0rQChdVmoAHEqnlcsLpmiH5tsew2g2oy1tXvPNMjulZAhQpSPePAvKthHSNrwuLj1FiPekNLrbhZAJWSS1ViAMDmdcZBmTOEG1nqAv4r8P53isjKRTwXru0C6YHh19x9ZAVdTZBDKr7yJ7cNFviP4ZC0HRLwZDZD with post data None
+2013-06-16 12:38:19,264 [INFO] open_facebook.api: facebook send response {u'username': u'amt.shrma', u'bio': u'.*', u'first_name': u'Amit', u'last_name': u'Sharma', u'verified': True, u'name': u'Amit Sharma', u'locale': u'en_GB', u'gender': u'male', u'work': [{u'employer': {u'id': u'8570160131', u'name': u'Cornell University'}}], u'email': u'amit_sharma@live.com', u'languages': [{u'id': u'112969428713061', u'name': u'Hindi'}, {u'id': u'106059522759137', u'name': u'English'}], u'quotes': u"If you argue correctly, you're never wrong.", u'link': u'http://www.facebook.com/amt.shrma', u'favorite_teams': [{u'id': u'190313434323691', u'name': u'Indian Cricket Team'}], u'inspirational_people': [{u'id': u'113529011990795', u'name': u'Steve Jobs'}, {u'id': u'106075019423422', u'name': u'Jon Stewart'}], u'timezone': -7, u'education': [{u'school': {u'id': u'111899772162536', u'name': u'Sardar Patel Vidyalaya'}, u'type': u'High School', u'year': {u'id': u'137616982934053', u'name': u'2006'}}, {u'school': {u'id': u'131396710226832', u'name': u'Vishwa Bharati Public School'}, u'type': u'High School'}, {u'school': {u'id': u'271667269604161', u'name': u'IIT Kharagpur'}, u'type': u'College', u'year': {u'id': u'142963519060927', u'name': u'2010'}}, {u'school': {u'id': u'8570160131', u'name': u'Cornell University'}, u'type': u'College'}], u'updated_time': u'2013-06-08T06:43:30+0000', u'id': u'1257750742'}
+2013-06-16 12:38:19,264 [INFO] django_facebook.views: facebook is authenticated
+2013-06-16 12:38:19,372 [INFO] django_facebook.views: Django facebook performed action: django_facebook.connect.LOGIN
+2013-06-16 12:38:20,739 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:38:20,739 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:38:20,740 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:38:20,740 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_109417309522004073857216788089877591768
+2013-06-16 12:38:26,913 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:38:26,914 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:38:26,914 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:38:26,914 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:38:26,915 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 12:38:26,915 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQBpEEPS-GPiVe0L35CqeyVgNIoc8Ru-QpvYRB2AML5WEwXVk708lkM9K5tRUFoS50GCIqP2E0zN622eIHgvigndCwguP7eyPepWIlL9vjOHeMihIeMJi5dFtFfqmnbrNAj2Tokyhu32CHflp_nx2XNfkfhQQN1pMnnE-JqfqD2RLLLEu2qB1HvBeAaTD6L8BxLjF8UQ5cZY7Jm5dJfesVaert55oX27V5zCVfkl7KkFWwQkUJUTcgNFeXUjIZGIgvr4l3mQ8ePB_y2pyg4JqmJPxRzk31-du1hqGOIQfUE64y3hBqbAkfxuM7lZZtOfrhw&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 12:38:26,994 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAK1buMY30z69QZAMAqQUA8hBvZCvCYMVHtX5MCtrm68IltAjGAz3rO4UISObHxImmJ8sUMZA9N8g0XH5A6G2FX7O0wcJYcRKnjQWEswP3I3XKsZA9TIO0gGo4ij8dquXhLdEqjvmlg0ZBbV5bb2f8wYX7C9eedgZDZD'], u'expires': [u'4894']}>
+2013-06-16 12:38:33,153 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:38:33,153 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:38:33,153 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:38:33,154 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:38:39,349 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:38:39,350 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:38:39,350 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:38:39,350 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:38:45,856 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:38:45,857 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:38:45,857 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:38:45,857 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:38:52,010 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:38:52,011 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:38:52,011 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:38:52,021 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:38:58,184 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:38:58,185 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:38:58,185 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:38:58,185 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:38:59,058 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:38:59,058 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:38:59,058 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:38:59,059 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:04,325 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:04,325 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:04,325 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:04,325 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:04,472 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:04,473 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:04,473 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:04,473 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:05,202 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:05,202 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:05,202 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:05,203 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:10,515 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:10,516 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:10,516 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:10,516 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:10,700 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:10,701 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:10,701 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:10,701 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:11,349 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:11,350 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:11,350 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:11,350 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:16,686 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:16,687 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:16,687 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:16,687 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:16,874 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:16,875 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:16,875 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:16,875 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:17,497 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:17,497 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:17,497 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:17,498 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:22,866 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:22,867 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:22,867 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:22,867 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:23,087 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:23,088 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:23,088 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:23,088 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:23,671 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:23,672 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:23,672 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:23,672 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:29,123 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:29,123 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:29,123 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:29,123 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:29,229 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:29,229 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:29,230 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:29,230 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:29,827 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:29,828 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:29,828 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:29,828 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:35,277 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:35,277 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:35,278 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:35,278 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:35,461 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:35,462 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:35,462 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:35,462 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:36,012 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:36,012 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:36,012 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:36,013 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:41,437 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:41,438 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:41,438 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:41,438 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:41,625 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:41,625 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:41,625 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:41,626 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:42,163 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:42,164 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:42,164 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:42,164 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:47,592 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:47,593 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:47,593 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:47,593 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:47,782 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:47,783 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:47,783 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:47,783 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:48,317 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:48,317 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:48,318 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:48,318 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:54,075 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:54,075 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:54,076 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:54,076 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:54,202 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:54,203 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:54,203 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:54,203 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:39:54,642 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:39:54,642 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:39:54,643 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:39:54,643 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:00,490 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:00,491 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:00,491 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:00,491 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:00,648 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:00,649 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:00,649 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:00,649 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:01,255 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:01,256 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:01,256 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:01,256 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:06,645 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:06,646 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:06,646 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:06,646 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:06,845 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:06,846 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:06,846 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:06,846 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:07,436 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:07,437 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:07,437 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:07,437 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:12,794 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:12,795 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:12,795 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:12,795 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:12,992 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:12,992 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:12,992 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:12,992 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:13,594 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:13,594 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:13,594 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:13,595 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:18,953 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:18,954 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:18,954 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:18,954 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:19,160 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:19,161 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:19,161 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:19,161 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:19,780 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:19,781 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:19,781 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:19,781 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:25,153 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:25,154 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:25,154 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:25,154 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:25,315 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:25,316 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:25,316 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:25,316 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:25,953 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:25,954 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:25,954 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:25,954 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:31,318 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:31,319 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:31,319 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:31,319 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:31,515 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:31,516 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:31,516 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:31,516 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:32,124 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:32,125 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:32,125 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:32,125 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:37,582 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:37,583 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:37,583 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:37,583 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:37,777 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:37,777 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:37,778 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:37,778 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:38,439 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:38,440 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:38,440 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:38,440 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:43,740 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:43,741 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:43,741 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:43,741 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:43,971 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:43,972 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:43,972 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:43,972 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:44,588 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:44,589 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:44,589 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:44,589 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:49,888 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:49,888 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:49,888 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:49,889 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:50,120 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:50,120 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:50,120 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:50,121 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:50,734 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:50,735 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:50,735 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:50,735 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:56,040 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:56,041 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:56,041 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:56,041 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:56,264 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:56,265 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:56,265 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:56,265 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:40:56,901 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:40:56,902 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:40:56,902 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:40:56,902 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:02,192 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:02,192 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:02,193 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:02,193 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:02,421 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:02,422 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:02,422 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:02,422 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:03,041 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:03,042 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:03,042 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:03,042 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:08,330 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:08,331 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:08,331 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:08,331 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:08,579 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:08,580 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:08,580 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:08,580 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:09,193 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:09,194 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:09,194 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:09,194 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:14,493 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:14,494 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:14,494 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:14,494 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:14,721 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:14,722 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:14,722 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:14,722 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:15,359 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:15,360 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:15,360 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:15,360 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:20,958 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:20,959 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:20,959 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:20,959 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:21,159 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:21,159 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:21,159 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:21,160 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:21,765 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:21,766 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:21,766 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:21,766 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:27,117 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:27,117 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:27,117 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:27,118 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:27,322 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:27,322 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:27,323 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:27,323 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:27,940 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:27,941 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:27,941 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:27,941 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:33,282 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:33,282 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:33,282 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:33,283 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:33,475 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:33,476 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:33,476 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:33,476 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:34,092 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:34,092 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:34,092 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:34,092 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:39,640 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:39,641 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:39,641 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:39,641 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:39,876 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:39,877 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:39,877 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:39,877 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:40,551 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:40,551 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:40,552 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:40,552 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:49,088 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:49,089 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:49,089 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:49,089 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:49,099 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 12:41:49,099 [INFO] django_facebook.views: found a graph object
+2013-06-16 12:41:49,100 [INFO] open_facebook.api: requesting url https://graph.facebook.com/me?access_token=CAAC5TeKoaSMBAK1buMY30z69QZAMAqQUA8hBvZCvCYMVHtX5MCtrm68IltAjGAz3rO4UISObHxImmJ8sUMZA9N8g0XH5A6G2FX7O0wcJYcRKnjQWEswP3I3XKsZA9TIO0gGo4ij8dquXhLdEqjvmlg0ZBbV5bb2f8wYX7C9eedgZDZD
+2013-06-16 12:41:49,100 [INFO] open_facebook.api: requesting url https://graph.facebook.com/me?access_token=CAAC5TeKoaSMBAK1buMY30z69QZAMAqQUA8hBvZCvCYMVHtX5MCtrm68IltAjGAz3rO4UISObHxImmJ8sUMZA9N8g0XH5A6G2FX7O0wcJYcRKnjQWEswP3I3XKsZA9TIO0gGo4ij8dquXhLdEqjvmlg0ZBbV5bb2f8wYX7C9eedgZDZD with post data None
+2013-06-16 12:41:49,138 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:49,138 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:49,138 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:49,139 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:41:49,146 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 12:41:49,146 [INFO] django_facebook.views: found a graph object
+2013-06-16 12:41:49,146 [INFO] open_facebook.api: requesting url https://graph.facebook.com/me?access_token=CAAC5TeKoaSMBAK1buMY30z69QZAMAqQUA8hBvZCvCYMVHtX5MCtrm68IltAjGAz3rO4UISObHxImmJ8sUMZA9N8g0XH5A6G2FX7O0wcJYcRKnjQWEswP3I3XKsZA9TIO0gGo4ij8dquXhLdEqjvmlg0ZBbV5bb2f8wYX7C9eedgZDZD
+2013-06-16 12:41:49,146 [INFO] open_facebook.api: requesting url https://graph.facebook.com/me?access_token=CAAC5TeKoaSMBAK1buMY30z69QZAMAqQUA8hBvZCvCYMVHtX5MCtrm68IltAjGAz3rO4UISObHxImmJ8sUMZA9N8g0XH5A6G2FX7O0wcJYcRKnjQWEswP3I3XKsZA9TIO0gGo4ij8dquXhLdEqjvmlg0ZBbV5bb2f8wYX7C9eedgZDZD with post data None
+2013-06-16 12:41:49,281 [INFO] open_facebook.api: facebook send response {u'username': u'amt.shrma', u'bio': u'.*', u'first_name': u'Amit', u'last_name': u'Sharma', u'verified': True, u'name': u'Amit Sharma', u'locale': u'en_GB', u'gender': u'male', u'work': [{u'employer': {u'id': u'8570160131', u'name': u'Cornell University'}}], u'email': u'amit_sharma@live.com', u'languages': [{u'id': u'112969428713061', u'name': u'Hindi'}, {u'id': u'106059522759137', u'name': u'English'}], u'quotes': u"If you argue correctly, you're never wrong.", u'link': u'http://www.facebook.com/amt.shrma', u'favorite_teams': [{u'id': u'190313434323691', u'name': u'Indian Cricket Team'}], u'inspirational_people': [{u'id': u'113529011990795', u'name': u'Steve Jobs'}, {u'id': u'106075019423422', u'name': u'Jon Stewart'}], u'timezone': -7, u'education': [{u'school': {u'id': u'111899772162536', u'name': u'Sardar Patel Vidyalaya'}, u'type': u'High School', u'year': {u'id': u'137616982934053', u'name': u'2006'}}, {u'school': {u'id': u'131396710226832', u'name': u'Vishwa Bharati Public School'}, u'type': u'High School'}, {u'school': {u'id': u'271667269604161', u'name': u'IIT Kharagpur'}, u'type': u'College', u'year': {u'id': u'142963519060927', u'name': u'2010'}}, {u'school': {u'id': u'8570160131', u'name': u'Cornell University'}, u'type': u'College'}], u'updated_time': u'2013-06-08T06:43:30+0000', u'id': u'1257750742'}
+2013-06-16 12:41:49,281 [INFO] django_facebook.views: facebook is authenticated
+2013-06-16 12:41:49,329 [INFO] open_facebook.api: facebook send response {u'username': u'amt.shrma', u'bio': u'.*', u'first_name': u'Amit', u'last_name': u'Sharma', u'verified': True, u'name': u'Amit Sharma', u'locale': u'en_GB', u'gender': u'male', u'work': [{u'employer': {u'id': u'8570160131', u'name': u'Cornell University'}}], u'email': u'amit_sharma@live.com', u'languages': [{u'id': u'112969428713061', u'name': u'Hindi'}, {u'id': u'106059522759137', u'name': u'English'}], u'quotes': u"If you argue correctly, you're never wrong.", u'link': u'http://www.facebook.com/amt.shrma', u'favorite_teams': [{u'id': u'190313434323691', u'name': u'Indian Cricket Team'}], u'inspirational_people': [{u'id': u'113529011990795', u'name': u'Steve Jobs'}, {u'id': u'106075019423422', u'name': u'Jon Stewart'}], u'timezone': -7, u'education': [{u'school': {u'id': u'111899772162536', u'name': u'Sardar Patel Vidyalaya'}, u'type': u'High School', u'year': {u'id': u'137616982934053', u'name': u'2006'}}, {u'school': {u'id': u'131396710226832', u'name': u'Vishwa Bharati Public School'}, u'type': u'High School'}, {u'school': {u'id': u'271667269604161', u'name': u'IIT Kharagpur'}, u'type': u'College', u'year': {u'id': u'142963519060927', u'name': u'2010'}}, {u'school': {u'id': u'8570160131', u'name': u'Cornell University'}, u'type': u'College'}], u'updated_time': u'2013-06-08T06:43:30+0000', u'id': u'1257750742'}
+2013-06-16 12:41:49,329 [INFO] django_facebook.views: facebook is authenticated
+2013-06-16 12:41:49,427 [INFO] django_facebook.views: Django facebook performed action: django_facebook.connect.LOGIN
+2013-06-16 12:41:49,487 [INFO] django_facebook.views: Django facebook performed action: django_facebook.connect.LOGIN
+2013-06-16 12:41:55,103 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:41:55,104 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:41:55,104 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:41:55,104 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_49427172590587085692584291420247723712
+2013-06-16 12:42:29,161 [INFO] open_facebook.api: requesting url https://graph.facebook.com/search?q=hello&type=page with post data None
+2013-06-16 12:42:29,333 [INFO] open_facebook.api: facebook send response {u'paging': {u'next': u'https://graph.facebook.com/search?q=hello&type=page&limit=25&offset=25&__after_id=129774363708002'}, u'data': [{u'category': u'Public figure', u'name': u'Hello Kitty', u'id': u'40444963499'}, {u'category': u'Movie', u'name': u'Hello Stranger', u'id': u'175416919172311'}, {u'category': u'Games/toys', u'name': u'Hello Kitty Online', u'id': u'26048775202'}, {u'category': u'Food/beverages', u'name': u'Hello, Cereal Lovers.', u'category_list': [{u'id': u'2252', u'name': u'Food/Beverages'}], u'id': u'364278496996893'}, {u'category': u'Musician/band', u'name': u'Helloween', u'id': u'75052548906'}, {u'category': u'Entertainment website', u'name': u'Hello Music', u'id': u'281927667328'}, {u'category': u'Product/service', u'name': u'Hello Shopping MX', u'id': u'244838998963420'}, {u'category': u'Journalist', u'name': u'Hello, be yourself.', u'id': u'213008688833237'}, {u'category': u'Musician/band', u'name': u'Hello Seahorse!', u'id': u'23388366720'}, {u'category': u'Product/service', u'name': u'HELLO KITTY parfums', u'id': u'82150270561'}, {u'category': u'Media/news/publishing', u'name': u'Hello', u'id': u'188962217895644'}, {u'category': u'Media/news/publishing', u'name': u'HELLO! Pakistan', u'id': u'253614164708603'}, {u'category': u'Baby goods/kids goods', u'name': u'Hello Kitty Lovers Indonesia', u'id': u'141849675970329'}, {u'category': u'Community', u'name': u'HELLO Europe', u'id': u'413859448698620'}, {u'category': u'Entertainment website', u'name': u'HELLO!', u'id': u'89982930077'}, {u'category': u'Musician/band', u'name': u'Hellogoodbye', u'id': u'12360093308'}, {u'category': u'Website', u'name': u'Hellodeal', u'id': u'454315504593955'}, {u'category': u'Community organization', u'name': u'Hello8920-Rj Kibria', u'category_list': [{u'id': u'152880021441864', u'name': u'Community Organization'}], u'id': u'389674181128895'}, {u'category': u'Entertainment website', u'name': u'HelloGiggles.com', u'id': u'209123339112078'}, {u'category': u'App page', u'name': u'Hello Adventure Puzzles', u'id': u'225956154159884'}, {u'category': u'Community', u'name': u'Hello Kitty Junkies', u'id': u'90854888251'}, {u'category': u'Health/beauty', u'name': u'Hello-Collagen', u'id': u'436754756409274'}, {u'category': u'Entertainment website', u'name': u'HELLO KITTY OFFICIAL SHOP', u'id': u'94166683751'}, {u'category': u'Magazine', u'name': u'Hello Kitty Magazine', u'id': u'93758493247'}, {u'category': u'Local business', u'name': u'hello3Dworld', u'id': u'129774363708002'}]}
+2013-06-16 12:42:30,886 [INFO] open_facebook.api: requesting url https://graph.facebook.com/175416919172311? with post data None
+2013-06-16 12:42:30,942 [INFO] open_facebook.api: facebook send response {u'category': u'Movie', u'talking_about_count': 1184, u'description': u'Hello Stranger is a 2010 romantic-comedy Thai film produced by Banjong Pisanthanakun, starring Chantavit Dhanasevi and Nuengthida Sophon. It was Banjong\'s first romantic film, which was inspired by the book Two Shadows in Korea by Songkalot Bangyikhun.Hello Stranger portrays a young Thai man and woman who meet by coincidence while on vacation in South Korea. They decide to tour Korea together while keeping their names secret from each other. The movie was filmed in Korea and includes various locations that have appeared in Korean dramas that were broadcast in Thailand.The cast, the director, and the musical group 25 Hours performed the song Nice Not to Meet You.Cast Chantavit Dhanasevi as young man with the alias Dang Nuengthida Sophon as young woman with the alias May Warutaya Nilakhuha as Goi Paradee \'Tuktik\' Mamuangthaisong as young woman with very white skin Pakjira \'Tukta\' Mamuangthaisong as young Thai woman with a mafia Thai boyfriend.ProductionTheme SongsThe song Nice Not to Meet You was performed by 25 Hours. The song title is a play on the Thai phrase "Yin Dee Tee Dai Roo Juk," meaning "nice to meet you." Its music video, directed by Nithiwat Tharathorn, stars the actors Chantavit and Nuengthida. Nuengthida also sang the theme song Love Doesn\'t Take Time, originally by Klear.', u'has_added_app': False, u'can_post': False, u'app_id': u'0', u'name': u'Hello Stranger', u'link': u'http://www.facebook.com/pages/Hello-Stranger/175416919172311', u'likes': 19424, u'were_here_count': 0, u'is_community_page': True, u'checkins': 0, u'id': u'175416919172311', u'is_published': True}
+2013-06-16 12:42:40,213 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:42:40,214 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:42:40,214 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:42:40,214 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_77894447702192009817466613482059617622
+2013-06-16 12:42:40,215 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 12:42:40,215 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQDq99QdCp2U56EdB1xdV-cKRguznAeQ0sOHEpgb-Kyxz28M2KosHNczneFTD0NcieabmILKmeaQ_EzpVIFytDSsp5hzL5O-R8-BsUe9ccXUesrKDcAKOCzCzUjeRofHuPpstVCWsDFmfoRDv9-hG3IT1xzwrqJrjdKtlGwDJPfQV0p-wCsmAId6Z4ggxz4IjlabOhGNmQZTQA5OYnwJQp7Syp8MwLDfYacUj8z-ixt5mmmanOmstngz9YEj6DHbS1h8r8RE5XzKVh6MeWo2C8PUsrIPtquFfnzU8DwcnJbAgZ7IN4MoBdJpuK11Re5KTaE&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 12:42:40,262 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAHqN65DzKp855KJw0ZAeMcCnlfl71wG9x3Bo1BU5TrWKzJOnb8Xg6XekVL8aTpuPhvwZB8hIIVraZAZBeMJBpvQyk3FqvT1LFne6wZCZC0DL7NU91cOl5ZAcHyOO6ZAC1XM7jZCbF82KF0Cnwwde8ZAPUIGtqgErvePgZDZD'], u'expires': [u'4640']}>
+2013-06-16 12:42:46,241 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:42:46,242 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:42:46,242 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:42:46,242 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_77894447702192009817466613482059617622
+2013-06-16 12:42:50,517 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:42:50,518 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:42:50,518 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:42:50,518 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_77894447702192009817466613482059617622
+2013-06-16 12:48:38,944 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:48:38,945 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:48:38,945 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:48:38,945 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_77894447702192009817466613482059617622
+2013-06-16 12:48:43,410 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:48:43,410 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:48:43,410 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:48:43,411 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_18055466426229957576609186896792206975
+2013-06-16 12:48:43,448 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 12:48:43,448 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQBUUQW1Ee5cgVjgHKxgJZUarre9wGXV-1Q_rOaDtEy386NvVz7-LxCe9yyqxZZ7xPYF0aH09mqjYI8i5GJXes_oi2TRXtA6t_17eAdwILsPX_ncSvp8G7_YnGW1n4Vdsf1X0rCI1jO6Un2xeL2gyRAmFWPvBWMBrE5rILziP6GSMhSAC4DGwgY-usUaMbEyBqwPwXVPEsF3jC-nTyaXbk-RNVmKYThloxjtxDJ2tn8xXFE1IosdhEqgBuTBzlQZGAoJ9LWRFQFDAK-pxaH5RsmTHOXfMhrgXFOh2ayEp4_2RDyz4_IIbZma1tIRhbYQnKI&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 12:48:43,480 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBALZAjVgGzFWQm2LGk8xQdpXnMe1tsnmOvHMUmA3Obfo278kFal5DZBPNToumRhizn3uhAEbQKNrGEqNdFDZCZBS7zCsyg1cGam4v1UPfO5PVEFsSIoZBNfZBpYY3HHquBeEZBznZAxUk3C8TguXV5Qz0va4Vr3f5HwZDZD'], u'expires': [u'4277']}>
+2013-06-16 12:48:50,225 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:48:50,226 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:48:50,226 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:48:50,226 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_18055466426229957576609186896792206975
+2013-06-16 12:48:50,230 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 12:48:50,230 [INFO] django_facebook.views: found a graph object
+2013-06-16 12:48:50,230 [INFO] open_facebook.api: requesting url https://graph.facebook.com/me?access_token=CAAC5TeKoaSMBALZAjVgGzFWQm2LGk8xQdpXnMe1tsnmOvHMUmA3Obfo278kFal5DZBPNToumRhizn3uhAEbQKNrGEqNdFDZCZBS7zCsyg1cGam4v1UPfO5PVEFsSIoZBNfZBpYY3HHquBeEZBznZAxUk3C8TguXV5Qz0va4Vr3f5HwZDZD
+2013-06-16 12:48:50,230 [INFO] open_facebook.api: requesting url https://graph.facebook.com/me?access_token=CAAC5TeKoaSMBALZAjVgGzFWQm2LGk8xQdpXnMe1tsnmOvHMUmA3Obfo278kFal5DZBPNToumRhizn3uhAEbQKNrGEqNdFDZCZBS7zCsyg1cGam4v1UPfO5PVEFsSIoZBNfZBpYY3HHquBeEZBznZAxUk3C8TguXV5Qz0va4Vr3f5HwZDZD with post data None
+2013-06-16 12:48:50,340 [INFO] open_facebook.api: facebook send response {u'username': u'amt.shrma', u'bio': u'.*', u'first_name': u'Amit', u'last_name': u'Sharma', u'verified': True, u'name': u'Amit Sharma', u'locale': u'en_GB', u'gender': u'male', u'work': [{u'employer': {u'id': u'8570160131', u'name': u'Cornell University'}}], u'email': u'amit_sharma@live.com', u'languages': [{u'id': u'112969428713061', u'name': u'Hindi'}, {u'id': u'106059522759137', u'name': u'English'}], u'quotes': u"If you argue correctly, you're never wrong.", u'link': u'http://www.facebook.com/amt.shrma', u'favorite_teams': [{u'id': u'190313434323691', u'name': u'Indian Cricket Team'}], u'inspirational_people': [{u'id': u'113529011990795', u'name': u'Steve Jobs'}, {u'id': u'106075019423422', u'name': u'Jon Stewart'}], u'timezone': -7, u'education': [{u'school': {u'id': u'111899772162536', u'name': u'Sardar Patel Vidyalaya'}, u'type': u'High School', u'year': {u'id': u'137616982934053', u'name': u'2006'}}, {u'school': {u'id': u'131396710226832', u'name': u'Vishwa Bharati Public School'}, u'type': u'High School'}, {u'school': {u'id': u'271667269604161', u'name': u'IIT Kharagpur'}, u'type': u'College', u'year': {u'id': u'142963519060927', u'name': u'2010'}}, {u'school': {u'id': u'8570160131', u'name': u'Cornell University'}, u'type': u'College'}], u'updated_time': u'2013-06-08T06:43:30+0000', u'id': u'1257750742'}
+2013-06-16 12:48:50,340 [INFO] django_facebook.views: facebook is authenticated
+2013-06-16 12:48:50,416 [INFO] django_facebook.views: Django facebook performed action: django_facebook.connect.LOGIN
+2013-06-16 12:48:51,601 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:48:51,601 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:48:51,602 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:48:51,602 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_18055466426229957576609186896792206975
+2013-06-16 12:49:28,740 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 12:49:28,740 [INFO] django_facebook.views: Facebook authentication needed for connect, raising an error
+2013-06-16 12:49:28,740 [INFO] django_facebook.decorators: requesting access with redirect uri: http://www.popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 12:49:28,954 [INFO] django_facebook.api: Got code from the request data
+2013-06-16 12:49:28,954 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_328939910522928112760288414103239880553
+2013-06-16 12:49:28,955 [INFO] django_facebook.api: trying to convert the code with redirect uri: http://www.popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 12:49:28,956 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQCGj3C6q_4XvjVBRvrjB-mbeWFwvKIWQeQg-AueJpbHgJUVCVJlE-_xTYGEu2rIM0n29IGCfXoaits2NK4AwdlXLud-Zyaz6CbT1Dwfmb_e0MmE8V0v4FHQvt1Tl3IC70X_RT3eXX09us2wPf2eBA3Hr51MJ3PhV65Ir0EAUbrGB_w7rhHqFMZJsNwjqJv6MhetJHhQwEjAFQcZ2iJ8rBU2dXpjkbAXCqAvDOxPXeQP9uwaE36sCpLXpEi855tH3P6BqqCax9WHB7jE73N-IrZgszb4hYLXk_yyfelGIRFjLf9Knfff7yjWPt2D--ld8dU&client_id=203744166308131&redirect_uri=http%3A%2F%2Fwww.popcore.me%2Ffacebook%2Fconnect%2F%3Ffacebook_login%3D1%26attempt%3D1 with post data None
+2013-06-16 12:49:29,038 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAO7I9ZBBWW4pV5SAmyB5RqdIxI0hMJdj1Nf2I06aeRfVhZCsZAwyRHV4W0YPZBAvaS8VZCVYKdZCGhObyExfZCOfY7udSZAkalIOKWJ54BN9vCCmyPZB0fIWoIHNKeedz2Npvc8iMoAZCOFspkGEM3gGUZD'], u'expires': [u'5178871']}>
+2013-06-16 12:49:29,039 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 12:49:29,040 [INFO] django_facebook.views: found a graph object
+2013-06-16 12:49:29,040 [INFO] open_facebook.api: requesting url https://graph.facebook.com/me?access_token=CAAC5TeKoaSMBAO7I9ZBBWW4pV5SAmyB5RqdIxI0hMJdj1Nf2I06aeRfVhZCsZAwyRHV4W0YPZBAvaS8VZCVYKdZCGhObyExfZCOfY7udSZAkalIOKWJ54BN9vCCmyPZB0fIWoIHNKeedz2Npvc8iMoAZCOFspkGEM3gGUZD
+2013-06-16 12:49:29,040 [INFO] open_facebook.api: requesting url https://graph.facebook.com/me?access_token=CAAC5TeKoaSMBAO7I9ZBBWW4pV5SAmyB5RqdIxI0hMJdj1Nf2I06aeRfVhZCsZAwyRHV4W0YPZBAvaS8VZCVYKdZCGhObyExfZCOfY7udSZAkalIOKWJ54BN9vCCmyPZB0fIWoIHNKeedz2Npvc8iMoAZCOFspkGEM3gGUZD with post data None
+2013-06-16 12:49:29,183 [INFO] open_facebook.api: facebook send response {u'username': u'amt.shrma', u'bio': u'.*', u'first_name': u'Amit', u'last_name': u'Sharma', u'verified': True, u'name': u'Amit Sharma', u'locale': u'en_GB', u'gender': u'male', u'work': [{u'employer': {u'id': u'8570160131', u'name': u'Cornell University'}}], u'email': u'amit_sharma@live.com', u'languages': [{u'id': u'112969428713061', u'name': u'Hindi'}, {u'id': u'106059522759137', u'name': u'English'}], u'quotes': u"If you argue correctly, you're never wrong.", u'link': u'http://www.facebook.com/amt.shrma', u'favorite_teams': [{u'id': u'190313434323691', u'name': u'Indian Cricket Team'}], u'inspirational_people': [{u'id': u'113529011990795', u'name': u'Steve Jobs'}, {u'id': u'106075019423422', u'name': u'Jon Stewart'}], u'timezone': -7, u'education': [{u'school': {u'id': u'111899772162536', u'name': u'Sardar Patel Vidyalaya'}, u'type': u'High School', u'year': {u'id': u'137616982934053', u'name': u'2006'}}, {u'school': {u'id': u'131396710226832', u'name': u'Vishwa Bharati Public School'}, u'type': u'High School'}, {u'school': {u'id': u'271667269604161', u'name': u'IIT Kharagpur'}, u'type': u'College', u'year': {u'id': u'142963519060927', u'name': u'2010'}}, {u'school': {u'id': u'8570160131', u'name': u'Cornell University'}, u'type': u'College'}], u'updated_time': u'2013-06-08T06:43:30+0000', u'id': u'1257750742'}
+2013-06-16 12:49:29,184 [INFO] django_facebook.views: facebook is authenticated
+2013-06-16 12:49:29,229 [INFO] django_facebook.views: Django facebook performed action: django_facebook.connect.LOGIN
+2013-06-16 12:51:45,652 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 12:51:45,652 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 12:51:45,652 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 12:51:45,653 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_202107937786664898124233866690225652451
+2013-06-16 12:51:45,653 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 12:51:45,654 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQBN_4JibWra1sXpxe6gVYOPNtXEOK2PmAh3cX6OZpsSGpn4CZom7q3tR7AUv0zpNm-O1952iB8eBkeQk0BL3G_M6j7696OmisNgbevZKs5Kaj0ZhVhgvC5QTGxx6o72r_-hswrUQ3J62FAnWPCAUCAFValA8VzD-Z_xG1VssysrOpy4o8hkGV3jdKQSVjfsK96JbHzZtiBS9u1zkhiiL9GkOjP2fAC6ptliCtZE0tSUDuZWM5ABEPbTSyaGgAaVYXtIZ3pEdZvvgrIYiqewBGiWVslcKdfZ408iGRWhiKpbwrNyai4trYDEpVTKbaoCtPg&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 12:51:45,733 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAANiTo0HDchCsGZCw9sYKYGondbGjQqYnuXPWAREDN6jhHsOYGB5eoNRnHK6vJcE2pQlRjmcmB7PPNj6DYZALyZB2WGfadcxFhAtQq1A9f3fdswExUMmRU8wNXeZCZBQEZAa0gzVAlplRAFpZCPORZBcF0948RjwqgZDZD'], u'expires': [u'4095']}>
+2013-06-16 13:32:13,003 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 13:32:13,003 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 13:32:13,003 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 13:32:13,004 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_336744874254144940450455795980246350732
+2013-06-16 13:32:13,004 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 13:32:13,004 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQC1LUbJGgcHGv2WiqAjUYNQ6AhJekUHUYMQoN9vnDSy2_SAdOrL7zhaF8Ow8pCh0hLffeugrJwPMSuH1A07oZxaYCPgC0nKT_-ConEqiz4rlkiS6GSZPGCPRWpJcYZA-75bcmQFIwj2rQsipe6zsvieK0PHEuj_PN_LmbBADg0G205Rag-VWMPjTi3jQdDqB81dHAX_uijtCRncVIs4DiXeOG6yF3Gmrw-BlTKsGlz6-trzOd3Qu3SalwqLaYfouMjLryCoYbLUGEf8iV2bOuGxiQG2mHjKTejcJJR4KY44LfuP-NVwDvcqyWZLBpSe9ks&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 13:32:13,049 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAGkDZBT7aCvkjuOkY5knQMSmeJQqe4VAVNS31WFsUX7IE0g3ckBSxFGTSSV8VQ99Icjp67ibSz9EMz6FJpDdPeGsr9eXZChVbSEvwEy2BwEY1zLsfyyfYCpWCMoLsxnuwDD2aQXMRyFvtPTrG4ZAhYD5zHqLAZDZD'], u'expires': [u'5268']}>
+2013-06-16 13:35:40,842 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 13:35:40,842 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 13:35:40,842 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 13:35:40,843 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_322281893979957141660637096024282482637
+2013-06-16 13:35:40,843 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 13:35:40,843 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQDBRM1Gf4tr1rIYC-A_w-3Ls50eEi_gqqXiI3OQGI7ee03fKXBwVdO41ukMWJk1_hSNK28siM8i2ocVTYEJAJwNie1W4DDf6hIZUI6rXX9MCUs-G6FLnXJmp1ogZ13Xm4o94uau-HV5b3h_cZHXSRRIr-aH8DAyJP1PtSB8CRfSFdX75B8lSf8ytpdEUDF09ZtS6PQ6UiALTyB5PuWLL6PaqFg42zXgYgySkdFhdEID0bqkq_FSuHtSOj-S6OnT1JteQzhbDCiKmbG77bCyGgpVikshcYOaXNdrZ5JyL_q0yZvmZIIj-1ZbyQoD6mg6lo8&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 13:35:40,889 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAC5gLSZBVfgHSqKJBuRyosJ0vclcZAU9wZCYoR1zuQP23FNXHYWfIKFHI3DechKFU1eNQoUlaCFOMQa59Xjn1F8dCMtnibSxQMcdZCAetzjsIrZCABUZAUIXq33QY8XJ6PX20ZArzuI1ZB4aslsokUtWvEKXbDr2CQZDZD'], u'expires': [u'5060']}>
+2013-06-16 13:36:09,465 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 13:36:09,465 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 13:36:09,465 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 13:36:09,465 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_295620320732861576219496949434650272653
+2013-06-16 13:36:09,492 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 13:36:09,493 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQBvHIS2tf2miN9v6eXopKIIRxNx8UEBxvsohOvrYDzVmhLKBdi6qhKALiZcGgDNZN2oOnMuxpYbB08D1kTJ3imEPOaCAct4sYBF6OstFatEmIvILMqmRrNTX0N5OzE2pPsYo-gdO-nGx5RA4uD5enT7cilmnpbtOu0Cl1iPvS-gE7F-_NDC8ZWBH7Kxgsvd1Nh0gl9jkvhrNyroVNHvo8pF6EI-Mk4Xl0ArD2F12Qm9ScdUO1g-rGWP18Svwx9oAizbirRkd5LoyjtmwgXhP9k4lDdB9_DaFu9FUnU-4QO6_zuTBBhd45daoRubgCstauA&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 13:36:09,599 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAG8zFbTRXzQdcSRdmhexQj6j7ALlmNa0CdSoyeqlItZCCxxbak0ZCmK8foWfv47HAm1CPRvUKfY9cCFjZAewZABZAsizg2H7WZCpS7CfduCnXMTibdxkaWkKDQNuCkEvWl7YUuBMErEiCkqfQ9B0FgJ32pomd3nwZDZD'], u'expires': [u'5031']}>
+2013-06-16 13:39:20,787 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 13:39:20,788 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 13:39:20,788 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 13:39:20,788 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_297829197243877114810955263546921419131
+2013-06-16 13:39:20,789 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 13:39:20,789 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQCK2o2fw1Ng9vhKL_L73d488IBfGJRGNxqFwfqXEjTrGGag7ixnDVCw0D3jV57joCNSUOcVinIgRe6wRL9rFvp2APVi6MxQ4ZARIZ6OAYbuoqfv6rtbImVqtwnzji6xAfvqPu6hpVHkyMg5GZnOJDkZ2euDdyjVrrkluW7sIoR0z5ljYjC4X4o9M4ndDwSGC7gdwy_Tktwx4ltfKkTqTbblUYm-ZBO2o5Klp9DQoIeUBIzu6oM1VWHh2ODbolcGIpVKyZIRk1-nf4GhjNwF9JFfSsBKKbfExjMXUSYd8Q7aJeAigoe2KQ_IPRxOwXoXlDM&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 13:39:20,898 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAMnWYVxZBA8AYZAdpJeHOFkaFxj28PwZCZCvT6EAh9TmjYH10ulnzmz4FXCgjs9F36ery2Usk4qtV0X428HnKfZClRdQZBFetACuhEBZBh44y4PGtEiBeYwCi4LoTjQOpv3hVcmSY4s4gtWEQfdfobJFkiifIew6gZDZD'], u'expires': [u'4840']}>
+2013-06-16 13:41:53,366 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 13:41:53,367 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 13:41:53,367 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 13:41:53,367 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_92730490284011273054621311172359118140
+2013-06-16 13:41:53,368 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 13:41:53,368 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQDmQNovEGbpSALgmGP-aUa3ymE5MhOEwAZ_7zjOUjoMFVIlkJfvSImt2O38w8MWpiK13oqgA0DKir9Z9Uf2b1yjVgxPKiQFCvE2Dv-qxm42IdK2o7Pxqjl1cXast_2-AP9YcSnlQ4gFHXzCn5Zu7HKj0XAX2tT6vMx2gU7L7NVBpC53ZfAW4tIUVoQSChdUtjOrOfq7k-PpaIiYlJ6zmx5RXJJGAtuksCA6WNXPQ92H_3ttly5YzCB8a_0yO5A10v3oK8CmF7UybTR6wHzIPm5zMK1uxPx7AIPm3PXMwbR31J7ShflMO48iMNbaudUVU7Y&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 13:41:53,515 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAI7AjH5z2Sx2mc7taKzM8AeD65VkbOF1HvwYLrLMctyI6BWDirPTg8ru2m3xQ0lHE9CcIkIrRiJk9EZA2N1hQjtmF6iO779gzrzyDFSlu0dyNhdQ2GJEx33VPaJ7LiNZBHGclFhEhZAEbEZBjuBYTHJl676cvQZDZD'], u'expires': [u'4687']}>
+2013-06-16 13:45:01,658 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 13:45:01,659 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 13:45:01,659 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 13:45:01,659 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_271222677044037445402997186188492370447
+2013-06-16 13:45:01,660 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 13:45:01,660 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQBn9LCVL32y4VxP6flcPngX13nRHZbCxyN3rc3txHfgDtyZHa4b0w1y5jq5SJots6CxzFxENB_uzuRDdm8mDzIcWLTp_rK3-Qn5hP0Gn8ILnZ4UWdYMyHyBkm91YACwZPaYDeNmoG6HLYtjqmi3DaXCi7JyD0lHKRTsbUVgdRoSwggCb0UMgrz6uOQ41qScn8qzciQLpiWaTzQsZgMLVncvzUtvuEwuQrOZERSfk696Dw_akQbvRs94tdn7lwhUza8klZ2qmlStjAo_YRtKyzyvd5_ZHIxlHtTBSwnDyspkqDzykq8GUZ8AusI9PtiJOP0&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 13:45:01,819 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBALOGf5lIZAiTJW92XsnZAyZAowNk6ZB6nzKNiahA1KI6v4ZCQJWRSMYC9XSFT01zgUqwL8zEvVguOCSMZB8hjaJWjQ7Rnrr7rvvt3dyZAVZCLjMJUrhaA3xvqm4vDozCTHwA3ZCLGQIf4G0QkYhLeXxstLS7IMeADHwZDZD'], u'expires': [u'4499']}>
+2013-06-16 13:45:39,504 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 13:45:39,505 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 13:45:39,505 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 13:45:39,505 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_19214489215822992478014598746447677267
+2013-06-16 13:45:39,506 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 13:45:39,506 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQA9F2kKKED-biSb9ZlXi9X922HuoJwjzuLFD2g8q1fg5Zna3JWGZW0QtqCIKlp49gcVJfbjr4EyTbXaLmM8LrKWqA95DYnWna60nizz_bZ5_q0YmgFEOIiH90FqsO_ne2N8_CTrijItnO6KLNoltvayWMkLa_5nSPRCJfXhV1sLwOQxr8AdPokj1iv9s3c2yM6NUagiXuQtzoH2OXX1ArtP1vP61K0ASNwZZ4CmVk_KPHxTvmUzkGod8sB1B5poU6OUyxAm6Xy8ycdfvAUh05dO2QXHIspkBjn-GuJtNwHrO0JlEyRr8MKDkmDuycV6VqI&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 13:45:39,711 [WARNING] open_facebook.api: FB request, error type <class 'urllib2.HTTPError'>, code 400
+2013-06-16 13:45:39,712 [INFO] open_facebook.api: facebook send response {u'error': {u'message': u'This authorization code has expired.', u'code': 100, u'type': u'OAuthException'}}
+2013-06-16 13:45:39,712 [INFO] open_facebook.api: Trying to match error code None to error class
+2013-06-16 13:45:39,713 [INFO] open_facebook.api: Matched error to class <class 'open_facebook.exceptions.OAuthException'>
+2013-06-16 13:45:39,713 [WARNING] django_facebook.api: Error when trying to convert code This authorization code has expired.
+2013-06-16 13:50:26,975 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 13:50:26,975 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 13:50:26,975 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 13:50:26,976 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_105119021817494732209548718107446026911
+2013-06-16 13:50:26,976 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 13:50:26,976 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQBvX50JYev-tyAOoiup5j_t4Y7NxliRnfEyF5ojIa1zmodsnoOcN0qqOMupWYyhcqHyF86eLYGJ3P5rYjamyNW6MkHAST4loyIkL1DL4fYCxnF6w1of-YwlcBwzsneDAI1YqS7r0n7whDs-4Iozsxpvj9b54KNU47ctA7QKiOZ_yauGddzCUVS2ixvSoE7zIMkbPOpJKPZ9P1VOk6LKG5eliFgvLGRzkQqDPSlAn6b8L6bN-Wx0Vy0Q4x5Zl9Zj1i3ZvNQWSwThxSE9VRjzFN1mk-AC-QNWT4GsFqC2is5mAAdXZi8QwXpZbeoMT4ZT2DQ&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 13:50:27,060 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAGvSyp30keEpi4MZBOwAW0UZBzTIQmv7gvvQwGz55AAZBrE19M5ad3BXPG7TwkIwZBNyRg7vWhs0PnogemeeUkL7yfzgzjJspHIKlp4CZA0tCdQR64qOP7jm2geH56zD6CXIDqobGkFyZByVfFnCXbqp9Qdwnj3AZDZD'], u'expires': [u'4174']}>
+2013-06-16 13:51:21,036 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 13:51:21,036 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 13:51:21,036 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 13:51:21,037 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_268477366207483185178278434169777452472
+2013-06-16 13:51:21,037 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 13:51:21,037 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQDX7lAIMsoRT8M_Si4BZkCWuMCuiqmGGyPsSwzjxI3qVqDJ-qotdJRTkGMqVSbaHHozVwEExT3Mm00pgRvKiQIxBB5ZFIFU_KhcmRNsnxh61mGKsouz6OW65S30B9JBOdtktDLw7HmmkYG9yWShyv7ehuuh8hDtNXAcBDy5LaOSJ5sdSvU0dmvMxD8bacWdMjdmj8hqN8Xe_LltisEQ9R3Y-DGh2ggSv-vx0BRKbSwdmwW9L2O37vF6zTMcbch_P0_pKZT6V3Rh1OHRjS3ahVeOUiI6yUosNhFmgyZeEsBVUC3_ed3T93HbmC-MA91SZPo&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 13:51:21,185 [WARNING] open_facebook.api: FB request, error type <class 'urllib2.HTTPError'>, code 400
+2013-06-16 13:51:21,185 [INFO] open_facebook.api: facebook send response {u'error': {u'message': u'This authorization code has expired.', u'code': 100, u'type': u'OAuthException'}}
+2013-06-16 13:51:21,185 [INFO] open_facebook.api: Trying to match error code None to error class
+2013-06-16 13:51:21,186 [INFO] open_facebook.api: Matched error to class <class 'open_facebook.exceptions.OAuthException'>
+2013-06-16 13:51:21,186 [WARNING] django_facebook.api: Error when trying to convert code This authorization code has expired.
+2013-06-16 13:52:58,206 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 13:52:58,207 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 13:52:58,207 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 13:52:58,207 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_105119021817494732209548718107446026911
+2013-06-16 14:22:02,509 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 14:22:02,509 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 14:22:02,509 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 14:22:02,510 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_56683069685913173562823974281873530966
+2013-06-16 14:22:02,510 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 14:22:02,510 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQBABwSPK5C_EgS4TrC9qP57w7Mnga70698Z2aJFo5jqQJ8fF4u6rbXgdd-U9Cn7DXUCF1UKbeOwNnW0URuUiJvH-Z4dd7DIGT3YhtHz7q2cAOEcEFuracfP5F1NwthX3B5Wx64BsxaBov_wvpyvpsIh-LwqqrVagSIR4RceWIFiFJFcyjylPSLid65cjmWjIQFrpyevsiGjmdoJucaL38d5-3FT27WFfimHZj4QtntlnN2ZL4fCgF2rFNk9nb8D9QpzOBYnVW_ZJJC4MHzD7641s9vtdIKOT-KmefKe8cIcXIbL-f6HwmEgkLJPelt5Yhc&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 14:22:02,610 [WARNING] open_facebook.api: FB request, error type <class 'urllib2.HTTPError'>, code 400
+2013-06-16 14:22:02,611 [INFO] open_facebook.api: facebook send response {u'error': {u'message': u'This authorization code has expired.', u'code': 100, u'type': u'OAuthException'}}
+2013-06-16 14:22:02,611 [INFO] open_facebook.api: Trying to match error code None to error class
+2013-06-16 14:22:02,611 [INFO] open_facebook.api: Matched error to class <class 'open_facebook.exceptions.OAuthException'>
+2013-06-16 14:22:02,611 [WARNING] django_facebook.api: Error when trying to convert code This authorization code has expired.
+2013-06-16 14:34:24,400 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 14:34:24,401 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 14:34:24,401 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 14:34:24,401 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_171410661786795841099094113882611205863
+2013-06-16 14:34:24,402 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 14:34:24,402 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQDkrQEdeGuvNupIk19XWmMgVOjZqvONOa7UsiAzsMEDF6ie0CQa9R9YmjxdQbUMZcrDTTz92hmpRnWYcI74NH_0MrAYrPfwDbln6YxSYp_1pKHNxs_f0xaQAyjDGBCdxwwyx16Lp3gH01zEV0izCv4xcAT80gTr5C06aqVqTngFC3ZMc-cRJnd4OeDLwElEtjmQwROqP-3U5UqrYZYu2rIqGF1msTmqV5wW1k9-jIVcRwvxj4vpLsoIeT6eF5pXDVkbB66CXgCgN7f3eXHDIj2FRSO2qitp9D8govGH25mouzTqSRQ-zSvFP4F8PW6DziQ&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 14:34:24,422 [WARNING] open_facebook.api: FB request, error type <class 'urllib2.HTTPError'>, code 400
+2013-06-16 14:34:24,422 [INFO] open_facebook.api: facebook send response {u'error': {u'message': u'This authorization code has expired.', u'code': 100, u'type': u'OAuthException'}}
+2013-06-16 14:34:24,422 [INFO] open_facebook.api: Trying to match error code None to error class
+2013-06-16 14:34:24,423 [INFO] open_facebook.api: Matched error to class <class 'open_facebook.exceptions.OAuthException'>
+2013-06-16 14:34:24,423 [WARNING] django_facebook.api: Error when trying to convert code This authorization code has expired.
+2013-06-16 14:36:58,026 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 14:36:58,026 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 14:36:58,027 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 14:36:58,027 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_185403259542199127319442876261045414439
+2013-06-16 14:36:58,059 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 14:36:58,059 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQC8JRsOPgRytNb8YO6ZwpNpMYdja-cnJKkbvM4wvXGp_Lqt7qg1TJGnf1xs3jW6EkxD8PGIwRY3pzmaaTNAQShxE19uzc_uqDNJr2yZ9lIas-FwcIo2qWwdmWxM10SeTkWR89W_SQG-uJjsRgplJMJ6KAyhVtFZws4_gQMg8VPSoZXRPWQ-s2BojVPvNKLAHiNz8mIPS8T6TNWX4kFF2zR5qzd-Q4pihCZUk3GoP4dzIzucRZ7q7ICS_b3QWMoj1wL2vlXhDNKQsWLiOmrksN6jyzBbpKtBoQ6LCC0MYtML22ngOD3i48GHWCb1CSYyEx8&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 14:36:58,108 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAEss0xAtD3soaKqX9uxMrPKMOpbUaPvZAAJSgEdIHb4JK1EypFDwT9vspMMbonkWe4tb7HEZA9oJxLK7cW93eAslKSOz2cN8ZBwMqmapL5bP7jxfazHCdaZA2iJZBffVRwlQxafPR7J8JGzLKus6vM4uwamxIOgZDZD'], u'expires': [u'4983']}>
+2013-06-16 14:39:17,062 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 14:39:17,063 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 14:39:17,063 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 14:39:17,063 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_82450270068986036234459741662760739977
+2013-06-16 14:39:17,064 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 14:39:17,065 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQDDKTML1mPCBQxuwJ_O6lGkMINssMnVGHtVgKup8-QBECPZAbB7y8wj6GjtVlVugiDfrqH5PLeFyDNxdFyYSlhUki4zIRbnL5MOlQmREFdxEKWVf5b_OnxYJ_9tYvbJ57_XVkHwhKvWQS-ULxCK4NY6vkpBag5cHmoDn90sKSVQtFZ8vOx5hVawsTagE3XsM1UAOrha0PNrR39My1NqM7TCXbGKAQMeWB4pIplj3y3HCRPjswllSKraBq1rln3uCl5JHN5HoNdcGK1sRPGULILC4KfdDY4aTmuQNC1ViV9qAKaAt73JRdOSO1yR3zhjHfQ&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 14:39:17,190 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAHrhnSZAjnQfId4amZCJfpTxGje58DW4xPtRgYWXGThHBf9SZBAKXBsgmkh9YV51EDmWQgOsnkAJ82lUEMvn04FQ1yI9dFkynh9jZAhNHCLEIE2YUP6fZCMkmPHVITDefa6dIw0U1YS3mCR3oV4YgSf2hxdBelwZDZD'], u'expires': [u'4843']}>
+2013-06-16 14:40:02,521 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 14:40:02,521 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 14:40:02,522 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 14:40:02,522 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_129265017961230178834433472301670525616
+2013-06-16 14:40:02,522 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 14:40:02,523 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQAGuNDFF94pHWUr5Ogwu-hMJTG54qRWOE-m-F_wAZWDOwC5s63RBwRlWD16BRVf48KKzPYng0Kf_fz-Ex9KtTQ1D5VXwpz2GoOLLepc9AVLcxcLlkmsh7v9bOP7Yn2wLGUFchjC8cnJDLqPuR-XC5xtEyxsXatJkP4QUX_nRMTlaSz6sgL5T6u2g2hT0j9Z66GrXutpjoAQw5Jek8dvRSI7JLmjiYZkTL7Io6l4vj5AotAgQ7y1noch-RUy2OaCjLWduXrf-0wIeWmGNf2hGbbINx4kqkOPCGc9UCQ_zy8QmsmmAcmUpN-aswH67L7PNxE&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 14:40:02,624 [WARNING] open_facebook.api: FB request, error type <class 'urllib2.HTTPError'>, code 400
+2013-06-16 14:40:02,625 [INFO] open_facebook.api: facebook send response {u'error': {u'message': u'This authorization code has expired.', u'code': 100, u'type': u'OAuthException'}}
+2013-06-16 14:40:02,625 [INFO] open_facebook.api: Trying to match error code None to error class
+2013-06-16 14:40:02,625 [INFO] open_facebook.api: Matched error to class <class 'open_facebook.exceptions.OAuthException'>
+2013-06-16 14:40:02,625 [WARNING] django_facebook.api: Error when trying to convert code This authorization code has expired.
+2013-06-16 14:42:35,642 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 14:42:35,642 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 14:42:35,642 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 14:42:35,643 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_233322482693149080970702032341361744775
+2013-06-16 14:42:35,643 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 14:42:35,643 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQAygGPdhwWRuQSTLT0_nLTPG2ZnSLcXZzK_DbiLdf82w-dC8wizhjWKOFbNSq1WDdwgQ5kdJ0Vh9rdIriDj2ikzOnH2tPBagRcDxSmUSNh-AKE7sOm_EhLqeOub6gYnaueE17vboYwp1zU3b5AjuTltPwQnbOdH_ONold7SzShKA94Zv-AtVS9mSlhSNcb3M9g7N1-vdcp0xwHTFwFU1RbWCyG0KirjISg6wKZC9n-10g2ujTIYUdoD7YPgWjiLP2q66jefD7V-qZh9OLxHc0AN-PMN5i92oRBxq_0M2YCGlOXwJFa5COTmcj3PNIeC5Q4&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 14:42:35,686 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAK7RSIqOcdM4J1UNoqwZA7qZBn8aGFxgUboFSBUGPN3vLM19XddlhzPOnXtiVQtfaec8samZCML0ChBQB8cDS4CPAs0dLwwpLqUi4biqqUUhckr3S0D3ArKS9svaC09l0kIpt9cbUm5KsZBZC8mqvYWV9ztVtiwZDZD'], u'expires': [u'4645']}>
+2013-06-16 14:46:52,707 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 14:46:52,708 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 14:46:52,708 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 14:46:52,708 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_225201670050919023516075807595769969160
+2013-06-16 14:46:52,709 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 14:46:52,709 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQBn13tTIXdNCDBVN60aSFcpM25mD_Pg0JeSfx-S2lBBjterUZv4XaqgBRQEDgB3Bd25SV8P5q7Zzg_ry8rDqz3KtN5F7cU9muLwFZtMggeY1rgEimFIm0-bcluQ6tEavmtZgwVfHoWlYiIrnzhl0ghvyCuRZqYtfbLwJ78EpTrv8s2vo3wjYSfE4GNlBettEqDD56Sp-GLOeAteFeDE1mcgBUH8f3aHoEvtHVgQi_NP7Urzh5f3-BzaaMOh_957aNd81uY10qXYl6JM4umKMxW_DXbYcpiRktVlQ-Hej2j9V27-zSjdsmxxfNHqIkFBRJk&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 14:46:52,952 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBADlFxwvQpXcgTEZCQemZA1RAhP8rszJQPVFwHZBPq06cPZBNozUVjufpZClWiRKX6RZBjsKA06gnxQmiYLv3j4LlP1QmmteU6MogQgdJZBGmGB7XBjipyL3HRJhUeuSv1ZBPpSeCL9DZAjD3zmZCzK12L7cFUhXxoZCTwZDZD'], u'expires': [u'4388']}>
+2013-06-16 14:49:42,774 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 14:49:42,774 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 14:49:42,774 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 14:49:42,775 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_129997490054315095947345828660671923147
+2013-06-16 14:49:42,775 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 14:49:42,775 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQBTfkPv9rzzDIGDPSbjSi1OBjdf2m6UslSUXpSpTU__ZeAuQM8g8XfForVsF_QqlHBd8AsnPoHCv50bId3B-GKF5pG5zZS1XNZGgMKKrhDkEM2liAD5w7oAL3mX5MUvZZXIJqO6tyT-tBTlwmLvkgFTd4EWZY8p_tqW6eoSUanMzh-f1G5Uuudc_lesyHS7LffEx3RtwDirjcrCSSG9u_DqC_UfhmaUSltVuruJqaGxd4V_j777TUZ5OsMBjYzHW8B-1JCWkURGfsQi2OrOD6T-O3UvAzO5D5H2Q-ItgkyxjyIsL-AEeOS3Vp7shLl96qk&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 14:49:42,911 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBANp8xh60YYieffc0E5eVBugEeZCe8eQix7bnBHGZAa8MD3Y0uU1aKJr9IJkpbx5sPIZAcWvwn2g6jrLchGfmUnZAH66NQ35H4swbwZCPYe7mEEZCgiMO0RM3Y915tCeT8NIFehQWXaLFXkxnvcWx2JQnPD0cvzAAZDZD'], u'expires': [u'4218']}>
+2013-06-16 14:52:24,426 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 14:52:24,427 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 14:52:24,427 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 14:52:24,427 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_73179628071893378410795993175115385388
+2013-06-16 14:52:24,428 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 14:52:24,428 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQCf8uhyyjddHkg-LTnDgBAJ2rk5ajexfkkBvlDvM1BKTKpCjjdbFve1yLV96EE8FwbDDkWoHkWLmkGYXtBCpH5_tpZoW86HEoEulWiTvSxOlwPrF5lEqXObAXlr1ZlRWkI-ppEhS0QjyujPXQveqemNKuiob4MUNI58PK8X9fxJ5NgVkV3XxU51lGxlX3phyFALHHjlwsqUyU0cWE0kpzsCDe0snPwcNfWpJhZNdqFm4I_05-jUzCw-JNWv4A260GpdIgoE8WymzxXkoK9OgBW1zqjf7RHmg80IWWReE1H_TQQy2t3tUzoVTK79Dsjjjuw&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 14:52:24,531 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAPFQWuEsC0WlT8E4R7girCyU1wX8nvcjA4aabAWjjtRcWeLhye3BZA2H2axkxfNjHCKvviNGsSwkCCo2dYwy99zClwnHWlt3nB52v8W9nPriSHQePAXgrclZCURwPS0yvypNzKSfVeIknZBjaYUEGXFRDBNSgZDZD'], u'expires': [u'4056']}>
+2013-06-16 14:53:58,794 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 14:53:58,794 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 14:53:58,795 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 14:53:58,795 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_78085647235324888038622901805725071936
+2013-06-16 14:53:58,795 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 14:53:58,796 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQCbUcxNIxdO-Ya_dQj8x785qsWR5eUNTH0RarJoh5LOxXQUGsnftVaA-nn5Qk58U97TpfHkngbiL9dVn6LzV-ciwxUpVgQqx-LfNx7NeOIh4YeQBbe4XGi_HrqHXAS6GxSNC3vPAFMuZ8rKtZR72dqJvSQVT_t93beitvCbt_azzuG_15OpDnWFwnYqO25lHUB54-2N2vMp2N08TydtwcHox6mvaT_fW3SR0h_XgO3DcqCVxciafja_3IZaWWKTzhy0iwVlO30DqHKReWVhwHQH0WK3vBKsm7hEmtWIFieDIB8D98vM6LmupXfpYC-MmzE&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 14:53:58,851 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAJ4oonWftbW9A3W7mZATdOCWN8jSAnK6ulZCHwTD2BkyYzsPZBNoqF6ANzZA0YXSolWOugqoGXiWPBsH9po1e5iglMJ3ZCGHEAv2IcWZBBTgD79knTZARAMrijwyrR4nbrdrMkkT4f7nd195Mnu3ZBv3EVIMr0QxPwZDZD'], u'expires': [u'3962']}>
+2013-06-16 14:55:07,040 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 14:55:07,040 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 14:55:07,040 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 14:55:07,041 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_327185867682792882593901519354459767666
+2013-06-16 14:55:07,041 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 14:55:07,041 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQDZPxoB-A5YMCg6Ez_N3XsMU-Qbht-6T7VxTetro8VrX5hy77v-0oCIFRix3qjk0Xnf72hCbRvh3mHbDuqcWKwWUV59hDjilcSjBgHAcif0r3BGhk4j2YxYqEuC5Yv7Z6JzEe6k71AGx8VPzY3MfqlfkjaVsTMDXCfnSnKFCwdtXj_8URhqBGNLJX5FRt76MrSSD3hsQjG9zDCmE2dVOib5COg1XiHuXFBo2VXib8XDVKaMIjOi2yfndmhwJHBNZfLGSOmMdFZY8Ugf0_R2AZiE3auMnSI30tQquuS2kfvf4kfhkUsbrgE0Z_DpRz364jQ&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 14:55:07,082 [WARNING] open_facebook.api: FB request, error type <class 'urllib2.HTTPError'>, code 400
+2013-06-16 14:55:07,083 [INFO] open_facebook.api: facebook send response {u'error': {u'message': u'This authorization code has expired.', u'code': 100, u'type': u'OAuthException'}}
+2013-06-16 14:55:07,083 [INFO] open_facebook.api: Trying to match error code None to error class
+2013-06-16 14:55:07,083 [INFO] open_facebook.api: Matched error to class <class 'open_facebook.exceptions.OAuthException'>
+2013-06-16 14:55:07,083 [WARNING] django_facebook.api: Error when trying to convert code This authorization code has expired.
+2013-06-16 14:59:09,018 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 14:59:09,019 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 14:59:09,019 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 14:59:09,019 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_196209088912264883722259536812910455950
+2013-06-16 14:59:09,023 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 14:59:09,023 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQDyfsMsG9KvOSPvgNrqzZuKfIoZ6zfZebtdXD69oCw0qSitaLcv8MFKZqB0LDBfNwrdKMM5eOVyJnfCKLOpdrF4_LU-quBnNOOLas5CARsZrJDskxyvJPUX33JMpwK2XgbmozSYtXAd7lv4eyzDQTNNPGAIhzZors3vpZ15hwZJJ1BNPiEpXvESb_XVAzH-Lu8VRZFz9EjlOVsHxRxuFP_LvlhbJgBmZOfigmgojQY1928Yg8inyTwxAwHDt_xMvtnRUtRl7uu7MaDGhzCGM4U6kki2WYvxrl7tpexsRUaT4ENeF_9nAal1f_iXe4BUKOE&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 14:59:09,062 [WARNING] open_facebook.api: FB request, error type <class 'urllib2.HTTPError'>, code 400
+2013-06-16 14:59:09,062 [INFO] open_facebook.api: facebook send response {u'error': {u'message': u'This authorization code has expired.', u'code': 100, u'type': u'OAuthException'}}
+2013-06-16 14:59:09,062 [INFO] open_facebook.api: Trying to match error code None to error class
+2013-06-16 14:59:09,063 [INFO] open_facebook.api: Matched error to class <class 'open_facebook.exceptions.OAuthException'>
+2013-06-16 14:59:09,063 [WARNING] django_facebook.api: Error when trying to convert code This authorization code has expired.
+2013-06-16 14:59:55,162 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 14:59:55,162 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 14:59:55,162 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 14:59:55,163 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_139006206199650956442387013615190945382
+2013-06-16 14:59:55,168 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 14:59:55,168 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQAoNeqe0j2YTgU42wGynjVCRYlf7D2tqVmOAtHKmP9wFWmR7aOlp1eDKU-e4S-NbIUk_QNECoOtlh8HvgOfT-blwXoxDV5KSjy3fq8KYSpeY37T9KlnqDzApb8C3lULU3zcv-doVhDTY3kI0JWvGuumdeYap5Is2YB9i_eDsJ7SReC3-eT32coPIiBk3n-DkhE877OSW_WBvz1YQF6DGOwQZRUEStHnMItA55sqq2zawrQGWcwMF2gtL0f9OvYmOiKDfD0Ivet9IPelpeI4w_KQwZWMoLxv4iwAsAK1DhnP1LAArUO6nPHovB3k_Hfg2g0&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 14:59:55,216 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBANZBEf4HDEZCar3h266wDuW6OjNw7F8lRjNXdz5Ba4CZC6eS2L3pbd65YxlMjao2gyGxUIeJvCmyZCK30bosxkBsViWOc1GgNCKJyTZB78vu2ZC0JZAMkNrb7Nm6M6ZBZBKDqR8mnOdOECveBStNyqwUaBpZApjQ5QIAZDZD'], u'expires': [u'3605']}>
+2013-06-16 15:07:56,791 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:07:56,792 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:07:56,792 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:07:56,792 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_34274450683910245990203276568991738005
+2013-06-16 15:07:56,793 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 15:07:56,793 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQBFmT7LA934ypN86z2Sh1EdcyfaRlkTBpmv4HHYdinTgR4TMWyP4P7Wg2q9Bj6VeID7_W33-i_fwH9mYUoMHbgaF08OIu37G3Q6sIcInoDMlTP-ZpWMP7NOOAwOsr-I0hnLMHu3zJosqXRcks3Bah0rVreJud6KxrIPg_P7RcSBcsBRowLmZ9dpg9wme889y40lJAwtwtEyWyWJj9QyAiUvwfAqL3GR1REvnT2KTBVLcXKdoaUO95inTYO-n9ROZjZ6VIcshNHAkUcFu8A0Hgv729CxQiSQY5r2xROoI5HeLxugYkmDFQb-nXizjMCy5eU&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 15:07:56,925 [WARNING] open_facebook.api: FB request, error type <class 'urllib2.HTTPError'>, code 400
+2013-06-16 15:07:56,925 [INFO] open_facebook.api: facebook send response {u'error': {u'message': u'This authorization code has expired.', u'code': 100, u'type': u'OAuthException'}}
+2013-06-16 15:07:56,925 [INFO] open_facebook.api: Trying to match error code None to error class
+2013-06-16 15:07:56,925 [INFO] open_facebook.api: Matched error to class <class 'open_facebook.exceptions.OAuthException'>
+2013-06-16 15:07:56,926 [WARNING] django_facebook.api: Error when trying to convert code This authorization code has expired.
+2013-06-16 15:09:45,162 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:09:45,162 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:09:45,162 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:09:45,163 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_41588526693185506058175674247674743288
+2013-06-16 15:09:45,163 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 15:09:45,163 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQDRK_TxrNhKeyassMICaZn2_wJNdyOU4f9Oo6MJybEsAbd2DKeHnLE3vaiR3sbvGnnYht7y1_9fMjSkaMtmOXTZcTjCDaGOU-KOH_HW96xH0VnExcr4fnvF37Jnx9Pp75bAWURkPW3TqlbF9RonXzP4lSvz5FWovPMTyTmbFGJAal6HAekOmnhJ9CNWvFul3IUkXIAJptGbOUcuOwIzga1YpBdQVcmMT0yGSHnuKLtNFlmrPPCCnlO7XuxWcJeGqYBeZIaC1fXsMj44KLOnXHFvVqF0vmavbR0oh3aebxRN_p6dJGtQQdRK0dYKcrOQ7PM&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 15:09:45,255 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBALNPuC4n63jrBUiUl39v1PyMPbnRI8BMZClYWch8IFt5pnqEyYOvIBmVVZBWrtVSOsi2QHMWicr5yurug0MZA5lerXvudZBe02k9GZCC99TB0pT15cnyWY07pW4ZB45cBj9ALVMcbmOKRkO4toXOlWOV4xNChosgZDZD'], u'expires': [u'6615']}>
+2013-06-16 15:10:19,064 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:10:19,065 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:10:19,065 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:10:19,065 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_312653822589992412363515490914359382247
+2013-06-16 15:10:19,073 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 15:10:19,073 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQA-ub0NZCOjxzoh2JOU-9Ges9AWOXpZc4gfsjRwdL31PmMT_2ICJ5jqSOl6vCI5WXehKVXYVwZkEJRbLdHnguSBe0V20h6LgqnSPHXYmg5dulam-AmFOk_mQSL9J8NCawhbhTtj8hzeNoaoOZz0pNn5teVYXFCNI5QPGEsNGYKH2FZ_pQUAL0FCk_1Whv6VA3C0O653Bdnx32EdaeLPcnA_VTeZoWozgfaamKt-3pDov8unYvARfoxuYeMXZEA_cZUdx2qX1v_gxLdIllD-z1oVYjBnSJV3wS9bCi1gO8oh7t4H4m47kbnpnLt88ejBDDE&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 15:10:19,150 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAI7OK4v9EpwaEz5USiDV2Mi1rddjiq4zto0rEZA7JQabm6ZAOZBBH1k9lDGMGxmmaGschXuofXdjhaZCZCP9cVEcjhojuwU4jRnUA0NlWulS4wjxOqAKqozjh2vMqzS0HDXIN9LzFeWf46SVixbDiLQOu773zZAgZDZD'], u'expires': [u'6581']}>
+2013-06-16 15:10:42,266 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:10:42,266 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:10:42,267 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:10:42,267 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_205859281629030099033948809706110702380
+2013-06-16 15:10:42,267 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 15:10:42,268 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQAs28cz4ipmqbHqVw6K_DPAZYGT7K6BadgzQTXRT-XT8nMIkVQPfOYxJeJHCvIvAGvqzXT1YAHMoFxTG5ozDKFpKEo-nkH_kOFfPIrnyNcTl9qOvdzygSwtaSxFIj1XOVac3ep5sp8-bx4T2bYnpnFaXP9Vp9xuy2LYMn-VRSF4p9ZlhIgAvQGYVATm0f3VxZOxdc9Xj-g1cheyazXhRAn9xZs1j5YFpjzm5HtyC4HLGfxdRCFFS0ZxwyrVwxwgnnjIq8C1FW25uH3yCFQvm8oJAqA68wDAyxZlW3GbQ_bCP0jxAnKo5v-dmu4WFzM_pIY&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 15:10:42,334 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAPmlbiYI56cPvxB8UuIXh9v1fNuKHOaZAIuQIrxUkdMzFFXiMswKofXtJEFU4omcdZBZAorst1a6cGVLGeL5rNoldRzfhsgg6pnr4JboaYBdYxUKpt3BqmzfV2YbFwfhpJYwMNC70gvxFyLLqqZAUApykDLZBzwZDZD'], u'expires': [u'6558']}>
+2013-06-16 15:15:11,331 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:15:11,333 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:15:11,333 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:15:11,333 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_126993628189022597383086672312507250953
+2013-06-16 15:15:11,359 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 15:15:11,360 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQDZCvX7HmElvTHlMVu730gVFN5Ew4kbpLxdOE6Kt4A-zer1w6r1ZuA4uHLhoLvA1GAFWbA8xVmrY0Puq7yxbtawqFTtEgiTs8u78owAPf5J7_SY52vQ8KPp8ik04wN4QLMIeq_oMdCrLui_mVBH7B6aWqx3Wz30TwC7CeTby8Js7oh8hYpuEGVqJ6XdXy57DY4uQHp-hNdo7ljGRhau1Eh4B0f-2c2qHaqcI5JTV4Ig7HyBkqSnhGxg31z9aRKJeh6M6VIEV9SorYNv30SIkrYddHujAQjp5hCrsGBmCHNuw5wjjxoid-NuT-2BeVdWfso&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 15:15:11,467 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAOLDOJ1qjC0Mwfw4wLt1Sdhvmd0p2H7t1kZCc0fP6r93EB95u7Qc4H9OUV7NgMhKbZA4u7V7Pa9O8ZBDz9eziZCQb7e624ZAXg9u3a8SZBHWQxldGVD5cZAWWpLXh9ZAUtTEDjDtbjeceaZAjqPcyB2iUy9Yw7Cc1ewZDZD'], u'expires': [u'6289']}>
+2013-06-16 15:16:30,413 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:16:30,413 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:16:30,413 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:16:30,414 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_5336909503075497768950973219365657095
+2013-06-16 15:16:30,414 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 15:16:30,414 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQD4ss-djsdHlYNVsAN_m_OG-JAXp-ig_ci3hxWAsk8O1dCvbTChhu1NlX_baFDSUuIIL-Xc-hEPDlAgDQAW3WKOSrADo7ZHXzuRKbDhkpDDACTTTC1_N8OPWN_AUnQOvstxjto8R-rg8FRozCwcZGsKjtkK3GT5mFvceQ4_7lc_fXCw7_VNTEOW76uzpho0rrkJ2UdQwIIj7jWq1seclWUsxIA8_d-HII7zCe4qceont5dHzUPj0jWFbm9wRkbi3MUkN_YFVntJSIZksBqK61Auw5_EJy2YOnXi1vRQCxA1iYAfxiWHUIl2BdXHZsPVoiM&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 15:16:30,505 [WARNING] open_facebook.api: FB request, error type <class 'urllib2.HTTPError'>, code 400
+2013-06-16 15:16:30,505 [INFO] open_facebook.api: facebook send response {u'error': {u'message': u'This authorization code has expired.', u'code': 100, u'type': u'OAuthException'}}
+2013-06-16 15:16:30,505 [INFO] open_facebook.api: Trying to match error code None to error class
+2013-06-16 15:16:30,505 [INFO] open_facebook.api: Matched error to class <class 'open_facebook.exceptions.OAuthException'>
+2013-06-16 15:16:30,506 [WARNING] django_facebook.api: Error when trying to convert code This authorization code has expired.
+2013-06-16 15:17:55,582 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:17:55,583 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:17:55,583 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:17:55,583 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_44621959164293032909079638511010499193
+2013-06-16 15:17:55,584 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 15:17:55,584 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQCCTdhPBcAX10rLAgme-De1MJspo4nqX8uEfgjYz3cB1XdHU-6YMsIS6SNodSTkgdllKR5T0K6ySXeUSWeS2ktMtI4Rcxirw_3RtWVxSasurGMS7l_G-Xlwozb6wSr5jHu0OHjH0QefhW2Lc6uXQqmpmj2gkKx49Vkm06-IbhaIVuHbXEknsydgKTCbObTxzLkoehoFP1DjVAuib-9ZjemptmOn5XeXNNUBdC_zh29kqGpGU1f55vjilYxqMBrF02QVde7qAazKEkLI9v77v9v732TQLcfN-qJVR1QTrrrYu3YHbtzDewpo4_4YOHtiJ_w&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 15:17:55,689 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAM73Q9PyzKgsufy3ZApvF19AECWbrJRSCdBjXMhN4ZCkWMEsOhujTITUsWGsi5X1MTdPcqXFZBtuSOa4JMaGXZCX9a3QV98040Qq7UyJVLTKNgkOntLIKdEeiFvJnG8VcZC8H4t89cUArwR0K1J62q45E0hlnbwZDZD'], u'expires': [u'6125']}>
+2013-06-16 15:22:33,927 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:22:33,928 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:22:33,928 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:22:33,928 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_163144837145355646994304661401344672703
+2013-06-16 15:22:33,929 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 15:22:33,929 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQAIbGpCS0dTx7gVAG229tIgxCjw2UQQkjuwcG_NJW6NEJaxJKGpB4v9u_k-V5S45ZtrVvHSpgwHK_1onjjuU6aHLJ-m1IWiKvc8G6QHmof5hrQi0w98Kx8G_FY4xPvmFcvVAnnd3v780Qt0-8B8O97idgC2XtR6-LscYRRlXwZiiPfNYecUuxz0VMvDDvNmyqsbjsi-YoBI5P4Rf4MMoWLechzDhwRBQlb0uHcKbT7AmZIHIVkMsxE--H2wr7PluvL2m3FkAGZTDroCtPVTc3q6tQlQgPPaA0xI54BgiXzo_9jIvvNW02BV1drNJYv7eGc&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 15:22:33,994 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAHbdtxNgCRdLHUsdRKbdAoEy6iel2M1Luq61wT3ko1wiwoMNTBl04sXSeX3IV0r8vbRUa2nkfJe7igvlRX5rjGrpweQJv6Yn0AeZABt3dezgD1xeO1eVFF1YdmhfOf2fYDKEj5UAmYUyMfZB8ZAp0LaSyRXDAZDZD'], u'expires': [u'5847']}>
+2013-06-16 15:23:45,088 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:23:45,089 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:23:45,089 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:23:45,089 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_82715537149218815944319464244363337593
+2013-06-16 15:23:45,090 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 15:23:45,090 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQA6TueAIxlUDEEfOB5HN06bhVrUCOJzVNKHctDD7NVdqXgl6x12CkBe4iskkTPoMSsdU0i8ldvfXoUvTtzju9d0BqmDntAq9l8MpJ3Fm4qa3LYhh1OMqYAyfmqgSOK6kjrkXIZJx-omgohhhN22fqEOTzj9D4viQZtbMrcVNpFYrJslk96mJe4dCatIYuMho5EgSAeypgntthRnEAz0wUAUZG7LMIT9ab-mEAmpwVCaOjIzCkcGYXTcozRnktEtDRImA_EzWRGOb0qh3h9K5KhUfFIGmqO_dD1vOSKIqXGP2xTXNnW4xYpUDEXPHqZllg8&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 15:23:45,189 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAET4AMgPVi2vVIlMtQGXUN1ZC3oBAZAqgRD2ZACXujaZCAyu4iFDixIwpKjyJkvGiYw5SqnsTnkk5eF8tYyWZBcCUo4WXdRP0Aalt9PpfCvr6HdMZB9g5ZCSYtFfI2hxygw36LUaUxyLYgjtGGoTi2M02GAccOZCtAZDZD'], u'expires': [u'5776']}>
+2013-06-16 15:24:12,590 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:24:12,590 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:24:12,591 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:24:12,591 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_324356512464264307990326315673915962199
+2013-06-16 15:24:12,597 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 15:24:12,597 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQC07T0V1b5hESYYAiM0B3afKEpsjeywUaGg5cne7EmOr551ClWn2Den1IKWzPz1sm76pAov6D78wypz_j_8lZ1siuPfPd3_PniU8COJUpOFdwwU-p0LkdAVxw47KRZlVwO9VdB8ySlHc-f551mMVEhzR91pMlITC9_QnxBC7ISCvdeUvax8caWOiOWTo_2FocEUeHv3i6iTn4Vu3Mlwu9jfcxCsDSO6nEfP-VpJmRZJJWTy4SMAvRgwIoL7kk-3HdfWCmPkQSFnSCLi_tIMRKyicXNen9ueaRcHzLMFYwfcfKImmiE5kwd80uJObCBkMi8&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 15:24:12,732 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAEweKGALLtuZBPOrZACkub8oWwkBzZBl166bNNzkZCzuhq1kZCRoBA6ZCfmIS7oqcNvZAFKK6YZCjEI1yjxh4oqZAM6TtwwVPFfOIQfVVtRmNMgjugMe9RM1ZBQ5GPNEZAm1NZBGLjDrGC3iiHv8Q5XPt83EdVdLhH47bwZDZD'], u'expires': [u'5748']}>
+2013-06-16 15:28:26,521 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:28:26,522 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:28:26,522 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:28:26,522 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_186465574689492107754889202184461650189
+2013-06-16 15:28:26,523 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 15:28:26,523 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQC2GvVdq_5kWAHfStUOFkyfGr_3wxfwFkuPML-8A-vrvWfbt8fYsTMt9xXBOCE3-KEzi8merQj3mqNKgBTxYxEdahZuSRbJiQ_h4S41v48Y3GkK-I7p1f9RfIR54LxJVB3yRvuzUEDtEc9IRiF4suaVT9jPeVoHT9UVhfqMqtJ9N-QY0MY6fIcg--f3VceT1jBglAiPxWAbdrUOVGMN_CM0oRb7Q3SIIqvR1uEreRvzGnyQLNk1GzJlKXy_EqH-MscUiUwX2cdWSPQcKnV_BhcQgZRijimUGFU6_TnBtyMvlHy7VxsKNYRi_lvM5YGXFNE&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 15:28:26,567 [WARNING] open_facebook.api: FB request, error type <class 'urllib2.HTTPError'>, code 400
+2013-06-16 15:28:26,568 [INFO] open_facebook.api: facebook send response {u'error': {u'message': u'This authorization code has expired.', u'code': 100, u'type': u'OAuthException'}}
+2013-06-16 15:28:26,568 [INFO] open_facebook.api: Trying to match error code None to error class
+2013-06-16 15:28:26,568 [INFO] open_facebook.api: Matched error to class <class 'open_facebook.exceptions.OAuthException'>
+2013-06-16 15:28:26,568 [WARNING] django_facebook.api: Error when trying to convert code This authorization code has expired.
+2013-06-16 15:30:35,253 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:30:35,253 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:30:35,253 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:30:35,346 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_278640755533552681501886462693570690778
+2013-06-16 15:30:35,347 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 15:30:35,347 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQBFqwjFzGLhZTppqs12fTneIiaYplmOeAN89Oi2sUnaIrdlXs0U7Pk3hEG47iPmwk45hW8ZqfFm6xbbVScCyTPdwPU3ybvK9wqdlo8d6Y9OMk8CyELZdPTSVP8ZAgpdkkWh3cH16JW-vKHhCPTP_AMhzzCYAZCfsR3i1OiKj19w_2vUFNVdGiafjubv8W08ruvt1yVoATt84iFWvhLOHIsdTkPJKqVkMa87a7sWcsK1799nso1m2QAI_d2EfL5iKRQ-oa0mzK_Gi5Jf6M_rdmc0u_FUYtVFrC4zpPSGK1j7YT-cT56ck2DdmdvEWPFd6lg&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 15:30:35,433 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAIeNVY7dXZBwiAL3SeQMZB9xRhnLHo0H7pFZAjoTjKCbnyZBiFjh9HD2JEebnjOwvu3Sj335MeVebpV6VRNMLZBgDXqYaxrvU9pCnlOmZCtqvWXb80J8w2bTNxNQhe8g9yZAAh1nP8BflyFwW5ZBZCncb31YZBMKYHhgZDZD'], u'expires': [u'5365']}>
+2013-06-16 15:32:30,429 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:32:30,430 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:32:30,430 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:32:30,430 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_40323831179696551350411697301294699737
+2013-06-16 15:32:30,431 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 15:32:30,431 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQBIUiXTL6RVVdaO2gxbeQ1ei_CQ0FoM171Gk7sLqqydODwQPo0CgU-XHBbqQgILX2O4d3ZrafxeX-8sfuxrZP1VXmh9qn96SJfCYx1r2jjyzQFRTBsHqFrlHXV86gY4O6Ax98CxJg8GfYrynpY2xMbL0dwlxprmbTelpGc4Sk1u_jicp-Z-oRpS2mp89we6zgtALR51GNCrpYBK037vC9YyWwmnMGO_4OJhDtTWuldxaOjux1eP7m84ewfBXWBmBvqSNP1VRoA89zKxXjWkShyN8iHTA2gIXDatd542ujdLbrADlrxS9jSxnFAVoU1yy-U&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 15:32:30,476 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAGhJOhxlQIBNfB6I40gLr4qii8k0w17VrkZCZA1gDVBDwsFmnpfp0C2mVUZB9DrXY0XNJvnDKzoNt43q62hB8aBJueF8JhZB4RKnWV5GSWMLK5GwyYBdSZBJrZCQym121MAgjXcXr06KNWbFJq13JVDFRcruy7YAZDZD'], u'expires': [u'5250']}>
+2013-06-16 15:33:04,430 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:33:04,431 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:33:04,431 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:33:04,431 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_299115005646217960459050492691849785887
+2013-06-16 15:33:04,432 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 15:33:04,432 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQCpTF2ZHMi74UCDejGTZBapq29Za_gVvvr0E2rjOi4dXxTnsO_Fafydz2LmELrh_7UCiueD4MQsv7MXgaeOXAA0y4V14T4LX-OY-p43aUZjrE45uDsYw1ryb9RIp3WNSwtcMCZc70T6_lF6CkdUrhqdTPpici1UKabSyWR8DfkstdBxYsyzdPh9n8T5tsACataQUmkcHu4_IvK9jf_58-6apSFHnKM1tA4PDI0UTMux3jd9vv24eev3JZVnmjtE3A09mwfQu4ayUAxBDJ1XJbKXwb91pDVQBoqownrgBNqWZvdacJMjQ8QBlyMdnQfBb0A&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 15:33:04,521 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAAimHyDNfROcai77irIdiStjnVI56HNgjvZA8Q6SxhPIAJRflfJkrpZAq9NbIUfJSw6yvQLrbCZBKz0BvZAZCajYiOjHhoOB2ZBJVtHeeMJgZCg2All1cJYFXfgdemsMZAF7Xv0CcexmDMttwOKP74DNJHZAaCZCCP3AZDZD'], u'expires': [u'5216']}>
+2013-06-16 15:33:08,429 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:33:08,429 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:33:08,429 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:33:08,430 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_299115005646217960459050492691849785887
+2013-06-16 15:34:23,388 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:34:23,389 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:34:23,389 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:34:23,389 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_299115005646217960459050492691849785887
+2013-06-16 15:35:16,077 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:35:16,186 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:35:16,186 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:35:16,186 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_79137492443446135791649626948460862541
+2013-06-16 15:35:16,187 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 15:35:16,187 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQBKSra1QfNHW5jgprRF6E8Y4YONPqjOQd5bD3I40NKv8DDfzhSqYy447hyRXdK_eikmxNlV0G8epUyaFENBSz0XDYAfN7KRca3uQ5ACS8b_NdMEB0QpEiuGijOdTMIeXb0K4lYBINV1Ar1gj6j1qFpnzaet9JVvPw-Iqw_0qivvlZYLzQvlzyibD1wBv3IxSISq62sbSrvxY4gRZ7CkiceN7qWvolLD_8waR_ixkxnJj-piCjF9aneDB7VhjRd9u00vSkjkHwvRRJGqQqjk8cXMMK4oEKWRyQvvdiI-izKB2s3mTQdbDq_0z08YFvKYpsA&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 15:35:16,283 [WARNING] open_facebook.api: FB request, error type <class 'urllib2.HTTPError'>, code 400
+2013-06-16 15:35:16,283 [INFO] open_facebook.api: facebook send response {u'error': {u'message': u'This authorization code has expired.', u'code': 100, u'type': u'OAuthException'}}
+2013-06-16 15:35:16,284 [INFO] open_facebook.api: Trying to match error code None to error class
+2013-06-16 15:35:16,284 [INFO] open_facebook.api: Matched error to class <class 'open_facebook.exceptions.OAuthException'>
+2013-06-16 15:35:16,284 [WARNING] django_facebook.api: Error when trying to convert code This authorization code has expired.
+2013-06-16 15:45:36,307 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:45:36,308 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:45:36,308 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:45:36,308 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_285771788328905927082011970467218929805
+2013-06-16 15:45:36,309 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 15:45:36,309 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQB6Z15f6sZFenTBv6gKtS3yMRBHktYlPtNtL_wKyOnRDoPzpNDE8oUbRXwHUL51u-aqrYBsvmWcCxnvgYoMmqExZQQcI7xVwXqLIOKQQNZh7dt0K1Vl6vl-pC05gj4IwZ_U-7uNiDdcGqY0nDcWRJuqywo7TmD8f9QgaMNOSwQbQgfQPlGi6mXPtcQlXORec4UkYsUMUSB8Ij4lrKa9KEdjajlUROvv5NMW0eQnN8SnGioyoBw0XOcWKNpg-ssHUM0YP_j00ybUCuTWQUvmgX23rfCksgZ0zXW7lED0t5x4PtOmAUto86MLtwFNE0GdC14&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 15:45:36,432 [WARNING] open_facebook.api: FB request, error type <class 'urllib2.HTTPError'>, code 400
+2013-06-16 15:45:36,432 [INFO] open_facebook.api: facebook send response {u'error': {u'message': u'This authorization code has expired.', u'code': 100, u'type': u'OAuthException'}}
+2013-06-16 15:45:36,433 [INFO] open_facebook.api: Trying to match error code None to error class
+2013-06-16 15:45:36,433 [INFO] open_facebook.api: Matched error to class <class 'open_facebook.exceptions.OAuthException'>
+2013-06-16 15:45:36,433 [WARNING] django_facebook.api: Error when trying to convert code This authorization code has expired.
+2013-06-16 15:48:43,805 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:48:43,806 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:48:43,806 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:48:43,806 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_158365590558338657873042624759503818213
+2013-06-16 15:48:43,806 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 15:48:43,807 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQAaN-1iF_GE9pQP1Ajaf2JvRcUPyFWPU5LlRGOvKo6yYyx5HxHZtnx7eN9eqKsgtljRU94wIvm77TyxPR1PXz5Fg7oVkTl7n9cyNTnOPlkAyzz2zTkWCc6ugvkML-GPoAQqP6F3gAtFS_o-RESoEfOcEpDxGJGnMO_ntNWseH5RTor8Q_Jxr7T-KWgSUjsqbrkpmO9GxMsexU3iAFRAClmyp6gVz9rzROB9anj7zem1QMaUShwCOCvzn2Apr8h5wZ8ruOdRjsmbT4c4pMXAxOMDySdzUhRwALWR5y_j90r9fb2XCi3G4rzj5BUUvPjjA4U&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 15:48:43,932 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBALY4mjMleZBPodxjF5A7ikYi6ZBITWrBSywxXVzT8Oz2GSRBMsEI2rpVYrREvxYCop5G3pSqP5J1FsSrkr9m1G6ZB6mvQvtjqZAzCbdOPz7g3mPu7j1KvsbRuVYC3Wq61ktazJEn6E13IS4ZCj4mUVfg8ZCzffMwZDZD'], u'expires': [u'4277']}>
+2013-06-16 15:49:51,558 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 15:49:51,559 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 15:49:51,559 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 15:49:51,559 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_158365590558338657873042624759503818213
+2013-06-16 16:32:57,844 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 16:32:57,844 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 16:32:57,845 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 16:32:57,845 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32662d0>convert_code_233385553899669261617137037220422132289
+2013-06-16 16:32:57,846 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 16:32:57,846 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQCWh6UZsmlRx3LJnd3Wfgk5xVIEDVox9CMeikUJykGn7xzamhV1s0qeS9UZMl0I89mZ39ZhFYaEG55y3vAhONpo2u7j2TQoREVrxhDvmqMz2E5kTsNGLavVWsmWEeeF_gz2KJTdyUMwKyW2QrAve19KCRz7QxfxEg0v6P9luUP1sJTHW0JzGoANeXuaC2BYuYDQgZp2kLDtWXem0L5uxkZc3zUQoWcvQwyheCL-GpFJIqh90_q4hskPVsS2zus2bYXvCbUCiw6H43D0GBiFyLkS0NmI54SW-NVCA1tbZQCtn0w0dRlYhSw73WuAQaWZ6Fw&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 16:32:57,894 [WARNING] open_facebook.api: FB request, error type <class 'urllib2.HTTPError'>, code 400
+2013-06-16 16:32:57,894 [INFO] open_facebook.api: facebook send response {u'error': {u'message': u'This authorization code has expired.', u'code': 100, u'type': u'OAuthException'}}
+2013-06-16 16:32:57,894 [INFO] open_facebook.api: Trying to match error code None to error class
+2013-06-16 16:32:57,895 [INFO] open_facebook.api: Matched error to class <class 'open_facebook.exceptions.OAuthException'>
+2013-06-16 16:32:57,895 [WARNING] django_facebook.api: Error when trying to convert code This authorization code has expired.
+2013-06-16 16:35:33,183 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 16:35:33,184 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 16:35:33,184 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 16:35:33,184 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_84449654516290825100165744835937973305
+2013-06-16 16:35:33,209 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 16:35:33,209 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQAK_vU6Kpo55TuxIN-y4D_I9Cje3RUmyChUy5vA-Z298HNT4pLA6m3GTHuBM1-gF04_Gk2AVEph4hR0QnHDur6ImUdxnWccgR2YHsLaqGEN8Yy-uJzE0I54cgEGvU8iNwLREZp4xYtlm5NRH2fNRpJ6snUeoUFwydzetklaepL5ufWk7AvzjNqLLB9zUR1oHPXFG8rIX0sEoseMziHoXBeW44B0kfXxWXWMKcdM42lhQ9XD8wolHsGwWM0yiQAkXkC5oNOSGD7AfTnTLhZAS8vi1zqYLU9YkvxfQ4TjaMg90UMWu0V7_yXE4JEB8SX2azA&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 16:35:33,354 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAJEpV8dn5ZAAPBlZBCe4XOwnVqeFXK9TDhjkON4rZBP3gYHCAQN8LCS2xZAdsmnClM91rCab8ZCZBRxZCCt34toEFqMohvJVHt5BG05pK8rpKCN2ZAd6h2YzyXsF0fBMVyFN6kYiOL9PxKiHl5hjejnh6BzOB7yRwAZDZD'], u'expires': [u'5067']}>
+2013-06-16 18:22:21,901 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 18:22:21,902 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 18:22:21,902 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 18:22:21,902 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_110925342939180395471028703411342181426
+2013-06-16 18:22:21,903 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 18:22:21,903 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQC7J72IREC5tASpRLh0RQPKk7FmSWSnnOoXS647asdW674GPu7rDs2Q3DqzkBGJpli5UOvAfmdK1SdeCbkpzJLuU0C0acGZvvKUe5AJ4l6-qEe-pIToszs4lXpucACtjA-qQCmfeixJPHHe_gebbqw9yIR6EAyKURF_5cmOUrFKlTX_LFDtmrzs63sp7DKhjxjRR121cw_9LeCD1qW1n_coNlVBrnqUFxp4y-pnzgk4bNornIT46cLldqto5XLpLgjaFSfIkI0gxfcvwKMy-Ca--4DGzLjeC5PJwQz3OArVPWdiE0faNBNnNGlNDNm1bDk&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 18:22:22,032 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAPcQbNPKUhxciyPRoEHNhZAoafi12gjNiAB8wgX7tM8jC3Y6F6ot9TAoUel0xfQmo8bCzKJKoT6ySsr67QY0DdOevQeDZAWBzqAfdoj6BU4sky38eR0mF1EUHZA1yzx87AADESde1I356NFDoAwFWKsu6kdkAZDZD'], u'expires': [u'5859']}>
+2013-06-16 18:22:31,597 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 18:22:31,598 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 18:22:31,598 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 18:22:31,598 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x3267290>convert_code_334674624823561457323023965948684637242
+2013-06-16 18:22:31,598 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 18:22:31,599 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQBJDi4iLmJkz_Hfg5MnYPshCMn_j1ty384768Q542cWNTobjI1xei2UqPVLuK0-iUQiwItCTpekcc_vIiE9AFnDXg6TIoptiQwkm-t2K3woHYTslp4uqxnahBAZL4tQNABteONFZ5buuo3c_yOF866MMK8Xx_O3eMWJ-fpDLqKVAYS4a3dTu-x53O9rVRTuemOULAlB2y1ZpmOhybiqHAZojqeAuDoOJsJVIibkgIxpyNVNr0kbMJs9czKVd19VPiOcWe_KDJ36TpOX-w8KpKInn9wcwa3T4HCxdp7Qe3-lGs2C5lqjcEH_FjFfgktJc2I&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 18:22:31,627 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAO3S4kPENaVQn8ZCgPEf66vU8wru9TF8otM076PSsO8XXKCIWp0OSd6wHXIAvkWpLkeF8KCZBzzlnYQN6WDlmsPWoThvEYBYiJZCJo0oF2WTtyoRBkRIVBPIAYZCKpxFjezMraMRgTgPctu6iFyu78CqUUOK1wZDZD'], u'expires': [u'5849']}>
+2013-06-16 18:22:31,631 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 18:22:31,631 [INFO] django_facebook.views: found a graph object
+2013-06-16 18:22:31,631 [INFO] open_facebook.api: requesting url https://graph.facebook.com/me?access_token=CAAC5TeKoaSMBAO3S4kPENaVQn8ZCgPEf66vU8wru9TF8otM076PSsO8XXKCIWp0OSd6wHXIAvkWpLkeF8KCZBzzlnYQN6WDlmsPWoThvEYBYiJZCJo0oF2WTtyoRBkRIVBPIAYZCKpxFjezMraMRgTgPctu6iFyu78CqUUOK1wZDZD
+2013-06-16 18:22:31,631 [INFO] open_facebook.api: requesting url https://graph.facebook.com/me?access_token=CAAC5TeKoaSMBAO3S4kPENaVQn8ZCgPEf66vU8wru9TF8otM076PSsO8XXKCIWp0OSd6wHXIAvkWpLkeF8KCZBzzlnYQN6WDlmsPWoThvEYBYiJZCJo0oF2WTtyoRBkRIVBPIAYZCKpxFjezMraMRgTgPctu6iFyu78CqUUOK1wZDZD with post data None
+2013-06-16 18:22:31,709 [INFO] open_facebook.api: facebook send response {u'username': u'amt.shrma', u'bio': u'.*', u'first_name': u'Amit', u'last_name': u'Sharma', u'verified': True, u'name': u'Amit Sharma', u'locale': u'en_GB', u'gender': u'male', u'work': [{u'employer': {u'id': u'8570160131', u'name': u'Cornell University'}}], u'email': u'amit_sharma@live.com', u'languages': [{u'id': u'112969428713061', u'name': u'Hindi'}, {u'id': u'106059522759137', u'name': u'English'}], u'quotes': u"If you argue correctly, you're never wrong.", u'link': u'http://www.facebook.com/amt.shrma', u'favorite_teams': [{u'id': u'190313434323691', u'name': u'Indian Cricket Team'}], u'inspirational_people': [{u'id': u'113529011990795', u'name': u'Steve Jobs'}, {u'id': u'106075019423422', u'name': u'Jon Stewart'}], u'timezone': -7, u'education': [{u'school': {u'id': u'111899772162536', u'name': u'Sardar Patel Vidyalaya'}, u'type': u'High School', u'year': {u'id': u'137616982934053', u'name': u'2006'}}, {u'school': {u'id': u'131396710226832', u'name': u'Vishwa Bharati Public School'}, u'type': u'High School'}, {u'school': {u'id': u'271667269604161', u'name': u'IIT Kharagpur'}, u'type': u'College', u'year': {u'id': u'142963519060927', u'name': u'2010'}}, {u'school': {u'id': u'8570160131', u'name': u'Cornell University'}, u'type': u'College'}], u'updated_time': u'2013-06-08T06:43:30+0000', u'id': u'1257750742'}
+2013-06-16 18:22:31,709 [INFO] django_facebook.views: facebook is authenticated
+2013-06-16 18:22:31,831 [INFO] django_facebook.views: Django facebook performed action: django_facebook.connect.LOGIN
+2013-06-16 18:22:34,395 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 18:22:34,396 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 18:22:34,396 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 18:22:34,396 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x32683d0>convert_code_334674624823561457323023965948684637242
+2013-06-16 18:28:12,582 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 18:28:12,583 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 18:28:12,583 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 18:28:12,583 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x194c410>convert_code_185175943933470284663156044100868405989
+2013-06-16 18:28:12,585 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 18:28:12,585 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQClt6tQikIPQoYtrXjPwp-UjucROQkjhR1na6Z8ViwfXwCJ6LtZz3Yv_frANymdyuZOkdPdOhQ87mwGQklvVmE5fmzrfkinTTi-cWIIYqpOQwJsYBA-boiJz3w0em9wP2NjsmmxYEFa68chnVzqYsGyuVglpNoCJdoM_W18nnxkrYkylMisItgiMyv-ECbf9Wy_QH4PUGBIy6wOA_9Arskvcqmn-Sue0nL92msebsY-mosycX2sB0WQXuhMSziNrUWbI895_Z9wOm5IAuQ-Q4OJjhHnCMvfD7tZ7L3A0ip0ThbnKy79WR6GMckUArRCXBs&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 18:28:12,632 [WARNING] open_facebook.api: FB request, error type <class 'urllib2.HTTPError'>, code 400
+2013-06-16 18:28:12,633 [INFO] open_facebook.api: facebook send response {u'error': {u'message': u'This authorization code has expired.', u'code': 100, u'type': u'OAuthException'}}
+2013-06-16 18:28:12,633 [INFO] open_facebook.api: Trying to match error code None to error class
+2013-06-16 18:28:12,633 [INFO] open_facebook.api: Matched error to class <class 'open_facebook.exceptions.OAuthException'>
+2013-06-16 18:28:12,634 [WARNING] django_facebook.api: Error when trying to convert code This authorization code has expired.
+2013-06-16 18:28:12,639 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 18:28:12,639 [INFO] django_facebook.views: Facebook authentication needed for connect, raising an error
+2013-06-16 18:28:12,640 [INFO] django_facebook.decorators: requesting access with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 18:28:13,128 [INFO] django_facebook.api: Got code from the request data
+2013-06-16 18:28:13,128 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x19462d0>convert_code_155005361228929478346305713203600904427
+2013-06-16 18:28:13,130 [INFO] django_facebook.api: trying to convert the code with redirect uri: http://popcore.me/facebook/connect/?facebook_login=1&attempt=1
+2013-06-16 18:28:13,130 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQDpEm_egRZS0xAoGqGFUUwkZm9bh8km1rYanZbTPMj6pLbWwX2UBi6yFOQ-smO-U5aJZD-hN0Z4GsD-x6Q3wLf4j2jXtZiFMcLNO3wc2kxDY-Fma68rHudoL5W4Gh_lSSagVVqGtkAeY9Rlmc5CAlb9NHXamh8TQKURcGRWE6xtytK46LkCdG3-098IgrgECCM46KkXvwY8_meak8u73CDKtDinEMHbntJg1VWPhSfnJrebtcUpn1a63rz0uEhukb39IC3EqYzrzKFX6c8SIwL9IKV_JtkNmEVVim3JE1fbo0nJf5VqFEjNyuPzIpjA3UE&client_id=203744166308131&redirect_uri=http%3A%2F%2Fpopcore.me%2Ffacebook%2Fconnect%2F%3Ffacebook_login%3D1%26attempt%3D1 with post data None
+2013-06-16 18:28:13,165 [INFO] open_facebook.api: facebook send response <QueryDict: {u'access_token': [u'CAAC5TeKoaSMBAOqoDUmPAZCu5MixPZAWyLNdrRkIe4Ol5Qpeku8KwkVHjeDu5KcpcjF0XZCuSOHsCpamoSTm30LTXhDMlLGx9tWu15CuQoT943fbIbZC8T2kh96IFaNwZAVhkaDLEHZBZAnNsrdUQjcxyDLBW2YngcZD'], u'expires': [u'5158546']}>
+2013-06-16 18:28:13,169 [INFO] django_facebook.views: trying to connect using facebook
+2013-06-16 18:28:13,169 [INFO] django_facebook.views: found a graph object
+2013-06-16 18:28:13,169 [INFO] open_facebook.api: requesting url https://graph.facebook.com/me?access_token=CAAC5TeKoaSMBAOqoDUmPAZCu5MixPZAWyLNdrRkIe4Ol5Qpeku8KwkVHjeDu5KcpcjF0XZCuSOHsCpamoSTm30LTXhDMlLGx9tWu15CuQoT943fbIbZC8T2kh96IFaNwZAVhkaDLEHZBZAnNsrdUQjcxyDLBW2YngcZD
+2013-06-16 18:28:13,169 [INFO] open_facebook.api: requesting url https://graph.facebook.com/me?access_token=CAAC5TeKoaSMBAOqoDUmPAZCu5MixPZAWyLNdrRkIe4Ol5Qpeku8KwkVHjeDu5KcpcjF0XZCuSOHsCpamoSTm30LTXhDMlLGx9tWu15CuQoT943fbIbZC8T2kh96IFaNwZAVhkaDLEHZBZAnNsrdUQjcxyDLBW2YngcZD with post data None
+2013-06-16 18:28:13,240 [INFO] open_facebook.api: facebook send response {u'username': u'amt.shrma', u'bio': u'.*', u'first_name': u'Amit', u'last_name': u'Sharma', u'verified': True, u'name': u'Amit Sharma', u'locale': u'en_GB', u'gender': u'male', u'work': [{u'employer': {u'id': u'8570160131', u'name': u'Cornell University'}}], u'email': u'amit_sharma@live.com', u'languages': [{u'id': u'112969428713061', u'name': u'Hindi'}, {u'id': u'106059522759137', u'name': u'English'}], u'quotes': u"If you argue correctly, you're never wrong.", u'link': u'http://www.facebook.com/amt.shrma', u'favorite_teams': [{u'id': u'190313434323691', u'name': u'Indian Cricket Team'}], u'inspirational_people': [{u'id': u'113529011990795', u'name': u'Steve Jobs'}, {u'id': u'106075019423422', u'name': u'Jon Stewart'}], u'timezone': -7, u'education': [{u'school': {u'id': u'111899772162536', u'name': u'Sardar Patel Vidyalaya'}, u'type': u'High School', u'year': {u'id': u'137616982934053', u'name': u'2006'}}, {u'school': {u'id': u'131396710226832', u'name': u'Vishwa Bharati Public School'}, u'type': u'High School'}, {u'school': {u'id': u'271667269604161', u'name': u'IIT Kharagpur'}, u'type': u'College', u'year': {u'id': u'142963519060927', u'name': u'2010'}}, {u'school': {u'id': u'8570160131', u'name': u'Cornell University'}, u'type': u'College'}], u'updated_time': u'2013-06-08T06:43:30+0000', u'id': u'1257750742'}
+2013-06-16 18:28:13,240 [INFO] django_facebook.views: facebook is authenticated
+2013-06-16 18:28:13,256 [INFO] django_facebook.views: Django facebook performed action: django_facebook.connect.LOGIN
+2013-06-16 18:28:16,954 [INFO] django_facebook.api: Got signed data from cookie
+2013-06-16 18:28:16,955 [INFO] django_facebook.api: Parsed the cookie data
+2013-06-16 18:28:16,955 [INFO] django_facebook.api: Got code from parsed data
+2013-06-16 18:28:16,956 [INFO] django_facebook.api: <django.core.cache.backends.memcached.MemcachedCache object at 0x194c410>convert_code_185175943933470284663156044100868405989
+2013-06-16 18:28:16,956 [INFO] django_facebook.api: trying to convert the code with redirect uri: 
+2013-06-16 18:28:16,956 [INFO] open_facebook.api: requesting url https://graph.facebook.com/oauth/access_token?client_secret=ea116318b08324274c4e3f7865ce8f8a&code=AQClt6tQikIPQoYtrXjPwp-UjucROQkjhR1na6Z8ViwfXwCJ6LtZz3Yv_frANymdyuZOkdPdOhQ87mwGQklvVmE5fmzrfkinTTi-cWIIYqpOQwJsYBA-boiJz3w0em9wP2NjsmmxYEFa68chnVzqYsGyuVglpNoCJdoM_W18nnxkrYkylMisItgiMyv-ECbf9Wy_QH4PUGBIy6wOA_9Arskvcqmn-Sue0nL92msebsY-mosycX2sB0WQXuhMSziNrUWbI895_Z9wOm5IAuQ-Q4OJjhHnCMvfD7tZ7L3A0ip0ThbnKy79WR6GMckUArRCXBs&client_id=203744166308131&redirect_uri= with post data None
+2013-06-16 18:28:16,995 [WARNING] open_facebook.api: FB request, error type <class 'urllib2.HTTPError'>, code 400
+2013-06-16 18:28:16,996 [INFO] open_facebook.api: facebook send response {u'error': {u'message': u'This authorization code has expired.', u'code': 100, u'type': u'OAuthException'}}
+2013-06-16 18:28:16,997 [INFO] open_facebook.api: Trying to match error code None to error class
+2013-06-16 18:28:16,997 [INFO] open_facebook.api: Matched error to class <class 'open_facebook.exceptions.OAuthException'>
+2013-06-16 18:28:16,997 [WARNING] django_facebook.api: Error when trying to convert code This authorization code has expired.

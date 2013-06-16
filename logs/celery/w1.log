@@ -1,0 +1,308 @@
+[2013-06-16 11:24:49,463: WARNING/MainProcess] celeryd: Warm shutdown (MainProcess)
+[2013-06-16 11:24:54,305: WARNING/MainProcess] /srv/python-environments/amitdjango/lib/python2.6/site-packages/celery/apps/worker.py:134: RuntimeWarning: Running celeryd with superuser privileges is discouraged!
+  "Running celeryd with superuser privileges is discouraged!"))
+[2013-06-16 11:24:54,437: WARNING/MainProcess] -------------- celery@w1.ip-10-204-238-185 v2.5.2
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://guest@localhost:5672/popcore
+- ** ----------   . loader:      djcelery.loaders.DjangoLoader
+- ** ----------   . logfile:     /home/ubuntu/django_projects/popcore/trunk/logs/celery/w1.log@WARNING
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+[2013-06-16 11:24:56,487: WARNING/MainProcess] celery@w1.ip-10-204-238-185 has started.
+[2013-06-16 11:24:57,640: ERROR/MainProcess] Consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/celery/worker/consumer.py", line 337, in start
+    self.consume_messages()
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/celery/worker/consumer.py", line 353, in consume_messages
+    self.connection.drain_events(timeout=1)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/kombu/connection.py", line 154, in drain_events
+    return self.transport.drain_events(self.connection, **kwargs)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/kombu/transport/amqplib.py", line 261, in drain_events
+    return connection.drain_events(**kwargs)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/kombu/transport/amqplib.py", line 93, in drain_events
+    return self.wait_multi(self.channels.values(), timeout=timeout)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/kombu/transport/amqplib.py", line 118, in wait_multi
+    return amqp_method(channel, args)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/amqplib/client_0_8/connection.py", line 380, in _close
+    raise AMQPConnectionException(reply_code, reply_text, (class_id, method_id))
+AMQPConnectionException: (320, u"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'", (0, 0), '')
+[2013-06-16 11:24:57,641: ERROR/MainProcess] Consumer: Connection Error: [Errno 111] Connection refused. Trying again in 2 seconds...
+[2013-06-16 11:24:57,643: ERROR/MainProcess] Consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/celery/worker/consumer.py", line 337, in start
+    self.consume_messages()
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/celery/worker/consumer.py", line 353, in consume_messages
+    self.connection.drain_events(timeout=1)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/kombu/connection.py", line 154, in drain_events
+    return self.transport.drain_events(self.connection, **kwargs)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/kombu/transport/amqplib.py", line 261, in drain_events
+    return connection.drain_events(**kwargs)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/kombu/transport/amqplib.py", line 93, in drain_events
+    return self.wait_multi(self.channels.values(), timeout=timeout)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/kombu/transport/amqplib.py", line 118, in wait_multi
+    return amqp_method(channel, args)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/amqplib/client_0_8/connection.py", line 380, in _close
+    raise AMQPConnectionException(reply_code, reply_text, (class_id, method_id))
+AMQPConnectionException: (320, u"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'", (0, 0), '')
+[2013-06-16 11:24:57,740: ERROR/MainProcess] Consumer: Connection Error: [Errno 111] Connection refused. Trying again in 2 seconds...
+[2013-06-16 11:24:59,645: ERROR/MainProcess] Consumer: Connection Error: [Errno 111] Connection refused. Trying again in 4 seconds...
+[2013-06-16 11:24:59,745: ERROR/MainProcess] Consumer: Connection Error: [Errno 111] Connection refused. Trying again in 4 seconds...
+[2013-06-16 11:25:03,659: ERROR/MainProcess] Consumer: Connection Error: [Errno 111] Connection refused. Trying again in 6 seconds...
+[2013-06-16 11:25:03,759: ERROR/MainProcess] Consumer: Connection Error: [Errno 111] Connection refused. Trying again in 6 seconds...
+[2013-06-16 11:25:09,669: ERROR/MainProcess] Consumer: Connection Error: [Errno 111] Connection refused. Trying again in 8 seconds...
+[2013-06-16 11:25:09,769: ERROR/MainProcess] Consumer: Connection Error: [Errno 111] Connection refused. Trying again in 8 seconds...
+[2013-06-16 11:25:17,679: ERROR/MainProcess] Consumer: Connection Error: [Errno 111] Connection refused. Trying again in 10 seconds...
+[2013-06-16 11:25:17,779: ERROR/MainProcess] Consumer: Connection Error: [Errno 111] Connection refused. Trying again in 10 seconds...
+[2013-06-16 11:25:27,716: ERROR/MainProcess] Consumer: Connection Error: [Errno 111] Connection refused. Trying again in 12 seconds...
+[2013-06-16 11:25:27,794: ERROR/MainProcess] Consumer: Connection Error: [Errno 111] Connection refused. Trying again in 12 seconds...
+[2013-06-16 12:30:22,075: ERROR/MainProcess] Consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/celery/worker/consumer.py", line 337, in start
+    self.consume_messages()
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/celery/worker/consumer.py", line 353, in consume_messages
+    self.connection.drain_events(timeout=1)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/kombu/connection.py", line 154, in drain_events
+    return self.transport.drain_events(self.connection, **kwargs)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/kombu/transport/amqplib.py", line 261, in drain_events
+    return connection.drain_events(**kwargs)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/kombu/transport/amqplib.py", line 93, in drain_events
+    return self.wait_multi(self.channels.values(), timeout=timeout)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/kombu/transport/amqplib.py", line 118, in wait_multi
+    return amqp_method(channel, args)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/amqplib/client_0_8/connection.py", line 380, in _close
+    raise AMQPConnectionException(reply_code, reply_text, (class_id, method_id))
+AMQPConnectionException: (320, u"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'", (0, 0), '')
+[2013-06-16 12:30:22,077: ERROR/MainProcess] Consumer: Connection Error: [Errno 111] Connection refused. Trying again in 2 seconds...
+[2013-06-16 12:30:22,083: ERROR/MainProcess] Consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/celery/worker/consumer.py", line 337, in start
+    self.consume_messages()
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/celery/worker/consumer.py", line 353, in consume_messages
+    self.connection.drain_events(timeout=1)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/kombu/connection.py", line 154, in drain_events
+    return self.transport.drain_events(self.connection, **kwargs)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/kombu/transport/amqplib.py", line 261, in drain_events
+    return connection.drain_events(**kwargs)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/kombu/transport/amqplib.py", line 93, in drain_events
+    return self.wait_multi(self.channels.values(), timeout=timeout)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/kombu/transport/amqplib.py", line 118, in wait_multi
+    return amqp_method(channel, args)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/amqplib/client_0_8/connection.py", line 380, in _close
+    raise AMQPConnectionException(reply_code, reply_text, (class_id, method_id))
+AMQPConnectionException: (320, u"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'", (0, 0), '')
+[2013-06-16 12:30:22,084: ERROR/MainProcess] Consumer: Connection Error: [Errno 111] Connection refused. Trying again in 2 seconds...
+[2013-06-16 12:30:23,575: WARNING/MainProcess] celeryd: Warm shutdown (MainProcess)
+[2013-06-16 12:30:23,580: WARNING/MainProcess] celeryd: Warm shutdown (MainProcess)
+[2013-06-16 12:41:41,241: WARNING/MainProcess] /srv/python-environments/amitdjango/lib/python2.6/site-packages/celery/apps/worker.py:134: RuntimeWarning: Running celeryd with superuser privileges is discouraged!
+  "Running celeryd with superuser privileges is discouraged!"))
+[2013-06-16 12:41:41,254: WARNING/MainProcess] -------------- celery@w1.ip-10-204-238-185 v2.5.2
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://guest@localhost:5672/popcore
+- ** ----------   . loader:      djcelery.loaders.DjangoLoader
+- ** ----------   . logfile:     /home/ubuntu/django_projects/popcore/trunk/logs/celery/w1.log@WARNING
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+[2013-06-16 12:41:41,361: WARNING/MainProcess] celery@w1.ip-10-204-238-185 has started.
+[2013-06-16 12:41:41,831: WARNING/PoolWorker-1] fb stored likes for 10
+[2013-06-16 12:41:42,212: WARNING/PoolWorker-2] fb stored friends for 10
+[2013-06-16 12:41:45,408: WARNING/PoolWorker-2] fb stored friendlikes for user 10
+[2013-06-16 12:41:46,761: WARNING/PoolWorker-2] fb stored friends for 10
+[2013-06-16 12:41:48,075: WARNING/PoolWorker-1] 1
+[2013-06-16 12:41:48,075: WARNING/PoolWorker-1] 1220927991
+[2013-06-16 12:41:48,076: WARNING/PoolWorker-1] 1
+[2013-06-16 12:41:48,076: WARNING/PoolWorker-1] 641940707
+[2013-06-16 12:41:48,076: WARNING/PoolWorker-1] 1
+[2013-06-16 12:41:48,076: WARNING/PoolWorker-1] 695387189
+[2013-06-16 12:41:48,076: WARNING/PoolWorker-1] 1
+[2013-06-16 12:41:48,076: WARNING/PoolWorker-1] 645668835
+[2013-06-16 12:41:48,077: WARNING/PoolWorker-1] 1
+[2013-06-16 12:41:48,077: WARNING/PoolWorker-1] 510405967
+[2013-06-16 12:41:48,077: WARNING/PoolWorker-1] 1
+[2013-06-16 12:41:48,077: WARNING/PoolWorker-1] 100000220515130
+[2013-06-16 12:41:48,077: WARNING/PoolWorker-1] 1
+[2013-06-16 12:41:48,077: WARNING/PoolWorker-1] 508073228
+[2013-06-16 12:41:48,122: WARNING/PoolWorker-1] 1
+[2013-06-16 12:41:48,122: WARNING/PoolWorker-1] 660314746
+[2013-06-16 12:41:49,233: WARNING/PoolWorker-1] fb stored tiestrength for user 10
+[2013-06-16 12:41:49,769: WARNING/PoolWorker-1] fb stored likes for 10
+[2013-06-16 12:41:51,207: WARNING/PoolWorker-2] fb stored friendlikes for user 10
+[2013-06-16 12:41:52,092: WARNING/PoolWorker-2] fb stored friends for 10
+[2013-06-16 12:41:54,341: WARNING/PoolWorker-1] 1
+[2013-06-16 12:41:54,352: WARNING/PoolWorker-1] 1220927991
+[2013-06-16 12:41:54,352: WARNING/PoolWorker-1] 1
+[2013-06-16 12:41:54,352: WARNING/PoolWorker-1] 641940707
+[2013-06-16 12:41:54,353: WARNING/PoolWorker-1] 1
+[2013-06-16 12:41:54,353: WARNING/PoolWorker-1] 695387189
+[2013-06-16 12:41:54,353: WARNING/PoolWorker-1] 1
+[2013-06-16 12:41:54,353: WARNING/PoolWorker-1] 645668835
+[2013-06-16 12:41:54,353: WARNING/PoolWorker-1] 1
+[2013-06-16 12:41:54,353: WARNING/PoolWorker-1] 510405967
+[2013-06-16 12:41:54,354: WARNING/PoolWorker-1] 1
+[2013-06-16 12:41:54,354: WARNING/PoolWorker-1] 100000220515130
+[2013-06-16 12:41:54,354: WARNING/PoolWorker-1] 1
+[2013-06-16 12:41:54,354: WARNING/PoolWorker-1] 508073228
+[2013-06-16 12:41:54,354: WARNING/PoolWorker-1] 1
+[2013-06-16 12:41:54,355: WARNING/PoolWorker-1] 660314746
+[2013-06-16 12:41:55,118: WARNING/PoolWorker-1] fb stored tiestrength for user 10
+[2013-06-16 12:41:55,928: WARNING/PoolWorker-1] fb stored likes for 10
+[2013-06-16 12:41:56,455: WARNING/PoolWorker-2] fb stored friendlikes for user 10
+[2013-06-16 12:41:57,212: WARNING/PoolWorker-2] fb stored friends for 10
+[2013-06-16 12:42:00,140: WARNING/PoolWorker-1] 1
+[2013-06-16 12:42:00,140: WARNING/PoolWorker-1] 1220927991
+[2013-06-16 12:42:00,140: WARNING/PoolWorker-1] 1
+[2013-06-16 12:42:00,140: WARNING/PoolWorker-1] 641940707
+[2013-06-16 12:42:00,140: WARNING/PoolWorker-1] 1
+[2013-06-16 12:42:00,141: WARNING/PoolWorker-1] 695387189
+[2013-06-16 12:42:00,141: WARNING/PoolWorker-1] 1
+[2013-06-16 12:42:00,141: WARNING/PoolWorker-1] 645668835
+[2013-06-16 12:42:00,141: WARNING/PoolWorker-1] 1
+[2013-06-16 12:42:00,227: WARNING/PoolWorker-1] 510405967
+[2013-06-16 12:42:00,227: WARNING/PoolWorker-1] 1
+[2013-06-16 12:42:00,227: WARNING/PoolWorker-1] 100000220515130
+[2013-06-16 12:42:00,227: WARNING/PoolWorker-1] 1
+[2013-06-16 12:42:00,227: WARNING/PoolWorker-1] 508073228
+[2013-06-16 12:42:00,228: WARNING/PoolWorker-1] 1
+[2013-06-16 12:42:00,228: WARNING/PoolWorker-1] 660314746
+[2013-06-16 12:42:01,373: WARNING/PoolWorker-1] fb stored tiestrength for user 10
+[2013-06-16 12:42:01,479: WARNING/PoolWorker-2] fb stored friendlikes for user 10
+[2013-06-16 12:42:01,617: WARNING/PoolWorker-1] fb stored likes for 10
+[2013-06-16 12:42:06,100: WARNING/PoolWorker-2] 1
+[2013-06-16 12:42:06,101: WARNING/PoolWorker-2] 1220927991
+[2013-06-16 12:42:06,101: WARNING/PoolWorker-2] 1
+[2013-06-16 12:42:06,101: WARNING/PoolWorker-2] 641940707
+[2013-06-16 12:42:06,101: WARNING/PoolWorker-2] 1
+[2013-06-16 12:42:06,101: WARNING/PoolWorker-2] 695387189
+[2013-06-16 12:42:06,102: WARNING/PoolWorker-2] 1
+[2013-06-16 12:42:06,102: WARNING/PoolWorker-2] 645668835
+[2013-06-16 12:42:06,102: WARNING/PoolWorker-2] 1
+[2013-06-16 12:42:06,102: WARNING/PoolWorker-2] 510405967
+[2013-06-16 12:42:06,102: WARNING/PoolWorker-2] 1
+[2013-06-16 12:42:06,102: WARNING/PoolWorker-2] 100000220515130
+[2013-06-16 12:42:06,103: WARNING/PoolWorker-2] 1
+[2013-06-16 12:42:06,103: WARNING/PoolWorker-2] 508073228
+[2013-06-16 12:42:06,103: WARNING/PoolWorker-2] 1
+[2013-06-16 12:42:06,103: WARNING/PoolWorker-2] 660314746
+[2013-06-16 12:42:06,486: WARNING/PoolWorker-2] fb stored tiestrength for user 10
+[2013-06-16 12:48:50,848: WARNING/PoolWorker-1] fb stored likes for 10
+[2013-06-16 12:48:51,141: WARNING/PoolWorker-2] fb stored friends for 10
+[2013-06-16 12:48:54,215: WARNING/PoolWorker-1] 1
+[2013-06-16 12:48:54,215: WARNING/PoolWorker-1] 1220927991
+[2013-06-16 12:48:54,215: WARNING/PoolWorker-1] 1
+[2013-06-16 12:48:54,215: WARNING/PoolWorker-1] 641940707
+[2013-06-16 12:48:54,215: WARNING/PoolWorker-1] 1
+[2013-06-16 12:48:54,216: WARNING/PoolWorker-1] 695387189
+[2013-06-16 12:48:54,216: WARNING/PoolWorker-1] 1
+[2013-06-16 12:48:54,216: WARNING/PoolWorker-1] 645668835
+[2013-06-16 12:48:54,216: WARNING/PoolWorker-1] 1
+[2013-06-16 12:48:54,216: WARNING/PoolWorker-1] 510405967
+[2013-06-16 12:48:54,216: WARNING/PoolWorker-1] 1
+[2013-06-16 12:48:54,217: WARNING/PoolWorker-1] 100000220515130
+[2013-06-16 12:48:54,217: WARNING/PoolWorker-1] 1
+[2013-06-16 12:48:54,217: WARNING/PoolWorker-1] 508073228
+[2013-06-16 12:48:54,217: WARNING/PoolWorker-1] 1
+[2013-06-16 12:48:54,217: WARNING/PoolWorker-1] 660314746
+[2013-06-16 12:48:55,271: WARNING/PoolWorker-1] fb stored tiestrength for user 10
+[2013-06-16 12:48:55,857: WARNING/PoolWorker-2] Exception in thread Thread-48:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.6/threading.py", line 484, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/ubuntu/django_projects/popcore/trunk/django_facebook/api.py", line 55, in fetchMovieLikes
+    insert_many(db_insert_list)
+  File "/home/ubuntu/django_projects/popcore/trunk/django_facebook/bulkops.py", line 53, in insert_many
+    parameters)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/django/db/backends/util.py", line 50, in executemany
+    return self.cursor.executemany(sql, param_list)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 100, in executemany
+    return self.cursor.executemany(query, args)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/MySQLdb/cursors.py", line 224, in executemany
+    if not self._defer_warnings: self._warning_check()
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Column 'num_likes' cannot be null
+[2013-06-16 12:48:55,863: WARNING/PoolWorker-2] fb stored friendlikes for user 10
+[2013-06-16 18:22:32,029: WARNING/PoolWorker-2] fb stored likes for 10
+[2013-06-16 18:22:32,610: WARNING/PoolWorker-1] fb stored friends for 10
+[2013-06-16 18:22:35,788: WARNING/PoolWorker-2] 1
+[2013-06-16 18:22:35,788: WARNING/PoolWorker-2] 1220927991
+[2013-06-16 18:22:35,788: WARNING/PoolWorker-2] 1
+[2013-06-16 18:22:35,788: WARNING/PoolWorker-2] 641940707
+[2013-06-16 18:22:35,789: WARNING/PoolWorker-2] 1
+[2013-06-16 18:22:35,789: WARNING/PoolWorker-2] 695387189
+[2013-06-16 18:22:35,789: WARNING/PoolWorker-2] 1
+[2013-06-16 18:22:35,789: WARNING/PoolWorker-2] 645668835
+[2013-06-16 18:22:35,789: WARNING/PoolWorker-2] 1
+[2013-06-16 18:22:35,789: WARNING/PoolWorker-2] 510405967
+[2013-06-16 18:22:35,790: WARNING/PoolWorker-2] 1
+[2013-06-16 18:22:35,790: WARNING/PoolWorker-2] 100000220515130
+[2013-06-16 18:22:35,790: WARNING/PoolWorker-2] 1
+[2013-06-16 18:22:35,790: WARNING/PoolWorker-2] 508073228
+[2013-06-16 18:22:35,790: WARNING/PoolWorker-2] 1
+[2013-06-16 18:22:35,790: WARNING/PoolWorker-2] 660314746
+[2013-06-16 18:22:36,521: WARNING/PoolWorker-2] fb stored tiestrength for user 10
+[2013-06-16 18:22:36,556: WARNING/PoolWorker-1] Exception in thread Thread-13:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.6/threading.py", line 484, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/ubuntu/django_projects/popcore/trunk/django_facebook/api.py", line 55, in fetchMovieLikes
+    except IntegrityError,ie:
+  File "/home/ubuntu/django_projects/popcore/trunk/django_facebook/bulkops.py", line 53, in insert_many
+    parameters)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/django/db/backends/util.py", line 50, in executemany
+    return self.cursor.executemany(sql, param_list)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 100, in executemany
+    return self.cursor.executemany(query, args)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/MySQLdb/cursors.py", line 224, in executemany
+    if not self._defer_warnings: self._warning_check()
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Column 'num_likes' cannot be null
+[2013-06-16 18:22:37,027: WARNING/PoolWorker-1] Exception in thread Thread-8:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.6/threading.py", line 484, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/ubuntu/django_projects/popcore/trunk/django_facebook/api.py", line 55, in fetchMovieLikes
+    except IntegrityError,ie:
+  File "/home/ubuntu/django_projects/popcore/trunk/django_facebook/bulkops.py", line 53, in insert_many
+    parameters)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/django/db/backends/util.py", line 50, in executemany
+    return self.cursor.executemany(sql, param_list)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 100, in executemany
+    return self.cursor.executemany(query, args)
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/MySQLdb/cursors.py", line 224, in executemany
+    if not self._defer_warnings: self._warning_check()
+  File "/srv/python-environments/amitdjango/lib/python2.6/site-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Column 'num_likes' cannot be null
+[2013-06-16 18:22:37,033: WARNING/PoolWorker-1] fb stored friendlikes for user 10
+[2013-06-16 18:28:03,204: WARNING/MainProcess] celeryd: Warm shutdown (MainProcess)
+[2013-06-16 18:28:06,601: WARNING/MainProcess] /srv/python-environments/amitdjango/lib/python2.6/site-packages/celery/apps/worker.py:134: RuntimeWarning: Running celeryd with superuser privileges is discouraged!
+  "Running celeryd with superuser privileges is discouraged!"))
+[2013-06-16 18:28:06,613: WARNING/MainProcess] -------------- celery@w1.ip-10-204-238-185 v2.5.2
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://guest@localhost:5672/popcore
+- ** ----------   . loader:      djcelery.loaders.DjangoLoader
+- ** ----------   . logfile:     /home/ubuntu/django_projects/popcore/trunk/logs/celery/w1.log@WARNING
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+[2013-06-16 18:28:06,677: WARNING/MainProcess] celery@w1.ip-10-204-238-185 has started.

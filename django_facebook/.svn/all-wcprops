@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cornell_hci_flashback/!svn/ver/209/popcore/trunk/django_facebook
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/admin.py
+END
+connect.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cornell_hci_flashback/!svn/ver/242/popcore/trunk/django_facebook/connect.py
+END
+auth_backends.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/auth_backends.py
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/cornell_hci_flashback/!svn/ver/147/popcore/trunk/django_facebook/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/__init__.py
+END
+settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/cornell_hci_flashback/!svn/ver/287/popcore/trunk/django_facebook/settings.py
+END
+signals.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/signals.py
+END
+utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/cornell_hci_flashback/!svn/ver/288/popcore/trunk/django_facebook/utils.py
+END
+decorators.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/cornell_hci_flashback/!svn/ver/242/popcore/trunk/django_facebook/decorators.py
+END
+context_processors.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/context_processors.py
+END
+api.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/cornell_hci_flashback/!svn/ver/288/popcore/trunk/django_facebook/api.py
+END
+canvas.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/canvas.py
+END
+exceptions.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/exceptions.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/cornell_hci_flashback/!svn/ver/287/popcore/trunk/django_facebook/models.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/cornell_hci_flashback/!svn/ver/135/popcore/trunk/django_facebook/urls.py
+END
+tasks.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/cornell_hci_flashback/!svn/ver/287/popcore/trunk/django_facebook/tasks.py
+END

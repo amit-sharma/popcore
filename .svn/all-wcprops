@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/cornell_hci_flashback/!svn/ver/217/popcore/trunk
+END
+manage.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cornell_hci_flashback/!svn/ver/37/popcore/trunk/manage.py
+END
+gunicorn_script.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cornell_hci_flashback/!svn/ver/134/popcore/trunk/gunicorn_script.sh
+END
+popcore.pid
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/cornell_hci_flashback/!svn/ver/37/popcore/trunk/popcore.pid
+END
+REQUIREMENTS
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/cornell_hci_flashback/!svn/ver/37/popcore/trunk/REQUIREMENTS
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/cornell_hci_flashback/!svn/ver/134/popcore/trunk/TODO
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/cornell_hci_flashback/!svn/ver/37/popcore/trunk/__init__.py
+END
+settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/cornell_hci_flashback/!svn/ver/287/popcore/trunk/settings.py
+END
+static
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/cornell_hci_flashback/!svn/ver/37/popcore/trunk/static
+END
+init.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/cornell_hci_flashback/!svn/ver/37/popcore/trunk/init.sh
+END
+manage.py.save
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cornell_hci_flashback/!svn/ver/37/popcore/trunk/manage.py.save
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/cornell_hci_flashback/!svn/ver/287/popcore/trunk/urls.py
+END
