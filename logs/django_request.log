@@ -141,3 +141,8 @@ MemcachedKeyLengthError: Key length is > 250
 2013-06-16 18:34:07,731 [WARNING] django.request: Forbidden (No CSRF or session cookie.): /realtime/receive_fb_updates
 2013-06-16 18:38:52,936 [WARNING] django.request: Forbidden (No CSRF or session cookie.): /realtime/receive_fb_updates
 2013-06-16 18:41:18,949 [WARNING] django.request: Forbidden (No CSRF or session cookie.): /realtime/receive_fb_updates
+2013-06-16 18:52:00,844 [WARNING] django.request: Forbidden (No CSRF or session cookie.): /realtime/receive_fb_updates
+2013-06-16 18:52:18,343 [WARNING] django.request: Forbidden (No CSRF or session cookie.): /realtime/receive_fb_updates
+2013-06-16 18:53:01,798 [WARNING] django.request: Forbidden (No CSRF or session cookie.): /realtime/receive_fb_updates
+2013-06-16 18:55:37,197 [WARNING] django.request: Forbidden (No CSRF or session cookie.): /realtime/receive_fb_updates
+2013-06-16 18:57:20,392 [WARNING] django.request: Forbidden (No CSRF or session cookie.): /realtime/receive_fb_updates
