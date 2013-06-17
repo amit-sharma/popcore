@@ -7,6 +7,7 @@ sherwin_test
 *.log
 *.py[cod]
 *.swp
+*.save
 *.pyc
 settings.py
 *~
