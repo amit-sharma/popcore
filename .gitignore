@@ -7,6 +7,8 @@ sandeep_test
 sherwin_test
 *.log
 *.pid
+*.zip
+*.tar
 *.py[cod]
 *.swp
 *.save
