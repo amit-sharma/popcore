@@ -1,10 +1,12 @@
 *.log
 .svn
 logs
+run
 mevlana_test
 sandeep_test
 sherwin_test
 *.log
+*.pid
 *.py[cod]
 *.swp
 *.save
