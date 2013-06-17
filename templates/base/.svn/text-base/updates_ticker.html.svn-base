@@ -1,7 +1,0 @@
-{% for suggestion in suggestions %}
-    {% if suggestion.target_user and suggestion.source_user %}
-        <li style="color:inherit" id="{{ suggestion.source_user }}{{ suggestion.item_name }}">{{ suggestion.source_user }} sent you <span class="ticker-item" name="{{ suggestion.item_id }}" type="{{ suggestion.category }}" style="color:inherit; cursor:pointer">{{ suggestion.item_name }}</span>.</li>
-    {%  else %}       
-         <li style="color:inherit" id="{{ suggestion.item_name }}">Someone recommended <span class="ticker-item" name="{{ suggestion.item_id }}" type="{{ suggestion.category }}" style="color:inherit; cursor:pointer">{{ suggestion.item_name }}</span>.</li>
-    {% endif %}
-{% endfor %}

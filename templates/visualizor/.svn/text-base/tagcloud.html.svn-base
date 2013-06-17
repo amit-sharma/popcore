@@ -1,4 +1,0 @@
-{% for formatted_item in formatted_items %}
-    <span class="size{{ formatted_item.size }}">&nbsp;&nbsp;<a name="{{formatted_item.category }}" id="t_{{ formatted_item.facebook_id }}" href="#">{{ formatted_item.name }}</a>&nbsp;&nbsp;</span>
-{% endfor %}
-

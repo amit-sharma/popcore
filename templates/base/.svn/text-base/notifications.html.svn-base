@@ -1,6 +1,0 @@
-{% for suggestion in suggestions %}    
-    <li style="color:inherit">{{ suggestion.source_user }} sent you {{ suggestion.item_name }}.</li>
-{% empty %}
-No suggestions made to you.
-{% endfor %}
-
