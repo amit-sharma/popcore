@@ -1,0 +1,42 @@
+*.log
+.svn
+logs
+mevlana_test
+sandeep_test
+sherwin_test
+*.log
+*.py[cod]
+*.swp
+*.pyc
+settings.py
+*~
+*.json
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+
